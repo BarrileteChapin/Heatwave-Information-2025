@@ -1,6 +1,6 @@
 # 🌡️ European Heatwave Emergency Services 2025
 
-An simple web application providing emergency information, cooling centers, and health services during the 2025 European heatwave crisis.
+A simple web application providing emergency information, cooling centers, and health services during the 2025 European heatwave crisis.
 
 Note: this a static website (it does not contain real-time data)
 
@@ -39,7 +39,7 @@ We welcome contributions to help people during this crisis! Here's how you can h
 ### 1. Update Emergency Data
 
 - Navigate to the `data/` folder
-- Find or create a country JSON file following the existing format [!json_instructions.md]
+- Find or create a country JSON file following the existing format [`data/json_instructions.md`]
 - Update with verified emergency contacts, cooling centers, and hospitals
 - Include sources for all information
 
