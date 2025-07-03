@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>European Heatwave Emergency Services - July 2025</title>
+    <meta name="description" content="Emergency heatwave services, cooling centers, and emergency contacts across Europe during early July 2025 ">
+    
+    <!-- Progressive Web App -->
+    <link rel="manifest" href="data:application/json;base64,eyJuYW1lIjoiRXVyb3BlYW4gSGVhdHdhdmUgRW1lcmdlbmN5Iiwic2hvcnRfbmFtZSI6IkhlYXRFbWVyZ2VuY3kiLCJzdGFydF91cmwiOiIuLyIsImRpc3BsYXkiOiJzdGFuZGFsb25lIiwiYmFja2dyb3VuZF9jb2xvciI6IiNmY2ZjZjkiLCJ0aGVtZV9jb2xvciI6IiNkYzI2MjYiLCJpY29ucyI6W3sic3JjIjoiZGF0YTppbWFnZS9zdmcreG1sO2Jhc2U2NCxQSE4yWnlCM2FXUjBhRDBpTWpRaUlHaGxhV2RvZEQwaU1qUWlJSFpwWlhkQ2IzZzlJakFnTUNBeU5DQXlOQ0krUEhCaGRHZ2dabWxzYkQwaUkwUkRNall5TmlJZ1pEMGlUVEV5SURBRE16a3VPQ0EzTGpReE5ERXlMakExT0NrME5DNHdOVGhNTVRJdU5ERTBJRGt1TlRrMElEUXVOamcyYzIweE5DQTBZeTR6TXpJZ01DODJPU0F1T0RrMklERXVOell5SUM0eU5qTWdNUzQyT1RJdGNURXdMamd0TVM0ek56VXRNVEV1T1M0ME9UVXRNVEV1T1M0ME9UVXRNVEV1T1M0ME9UVXRNVEV1T1M0ME9UVXRNVEV1T1M0ME9UVXRNVEV1T1M0ME9UVXRNVEV1T1M0ME9UVXRNVEUzUEM5d1lYUm9Qand2YzNablBnPT0iLCJzaXplcyI6IjI0eDI0IiwidHlwZSI6ImltYWdlL3N2Zyt4bWwifV19">
+    <meta name="theme-color" content="#dc2626">
+    
+    <!-- Emergency Meta Tags -->
+    <meta name="emergency" content="true">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="./">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+          crossorigin="">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Emergency Alert Banner -->
+    <div class="emergency-banner" role="alert" aria-live="assertive">
+        <div class="container">
+            <div class="emergency-banner__content">
+                <span class="emergency-banner__icon">🚨</span>
+                <div class="emergency-banner__text">
+                    <strong>EXTREME HEATWAVE ALERT</strong>
+                    <span>Europe experiencing 40°C+ temperatures. Emergency services active.</span>
+                </div>
+                <a href="tel:112" class="btn btn--emergency" aria-label="Call emergency services 112">
+                    📞 CALL 112
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <h1 class="header__title">🌡️ European Heatwave Emergency</h1>
+                <div class="header__actions">
+                    <select class="form-control header__language" aria-label="Select language">
+                        <option value="en">🇬🇧 EN</option>
+                        <option value="fr">🇫🇷 FR</option>
+                        <option value="es">🇪🇸 ES</option>
+                        <option value="it">🇮🇹 IT</option>
+                        <option value="de">🇩🇪 DE</option>
+                    </select>
+                    <button class="btn btn--secondary" id="location-btn" aria-label="Get current location">
+                        📍 My Location
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Search and Filters -->
+            <section class="search-section" aria-label="Search and filter emergency services">
+                <div class="search-controls">
+                    <div class="search-input-wrapper">
+                        <input type="text" 
+                               class="form-control search-input" 
+                               id="search-input"
+                               placeholder="Search by country..."
+                               aria-label="Search by country"
+                               list="country-suggestions">
+                        <button class="search-clear" id="search-clear" aria-label="Clear search">✕</button>
+                        <datalist id="country-suggestions"></datalist>
+                    </div>
+                    
+                    <div class="filter-controls">
+                        
+                        <button class="filter-btn active" data-filter="hotlines">🔥 Hotlines</button>
+                        <button class="filter-btn" data-filter="cooling">❄️ Cooling Centers</button>
+                        <button class="filter-btn" data-filter="hospitals">🏥 Hospitals</button>
+                        <button class="filter-btn" data-filter="all">All Services</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Map and Info Layout -->
+            <div class="layout">
+                <!-- Map Container -->
+                <section class="map-section" aria-label="Interactive emergency services map">
+                    <div class="map-container">
+                        <div id="map" role="application" aria-label="European heatwave emergency services map"></div>
+                        
+                        <!-- Map Controls -->
+                        <div class="map-controls">
+                            <div class="map-legend">
+                                <h3>Alert Levels</h3>
+                                <div class="legend-item">
+                                    <span class="legend-marker legend-marker--red"></span>
+                                    <span>Red - Extreme Danger</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-marker legend-marker--orange"></span>
+                                    <span>Orange - High Risk</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-marker legend-marker--yellow"></span>
+                                    <span>Yellow - Moderate Risk</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Information Panel -->
+                <aside class="info-panel" aria-label="Selected location information">
+                    <div class="info-panel__header">
+                        <h2 id="selected-location">Select a location</h2>
+                        <button class="btn btn--secondary btn--sm" id="close-panel" aria-label="Close information panel">✕</button>
+                    </div>
+                    
+                    <div class="info-panel__content" id="info-content">
+                        <div class="welcome-message">
+                            <h3>🌡️ Welcome to European Heatwave Emergency Services</h3>
+                            <p>Click on any country marker to view emergency contacts, cooling centers, and vital heatwave information.</p>
+                            
+                            <div class="quick-actions">
+                                <h4>Quick Emergency Actions:</h4>
+                                <a href="tel:112" class="btn btn--emergency btn--full-width">📞 Call EU Emergency: 112</a>
+                            </div>
+                            
+                            <div class="heat-safety-tips">
+                                <h4>🛡️ Heat Safety Tips:</h4>
+                                <ul>
+                                    <li>Stay indoors during peak heat (11:00-18:00)</li>
+                                    <li>Drink water frequently, avoid alcohol</li>
+                                    <li>Wear light-colored, loose clothing</li>
+                                    <li>Check on elderly relatives and neighbors</li>
+                                    <li>Never leave children or pets in cars</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <p><strong>Last Updated:</strong> <span id="last-updated">July 3, 2025</span></p>
+                    <p><strong>Data Sources:</strong> Blogs, News, and Official Information on the Web (Note: This is an Unofficial Website) </p>
+                </div>
+                <div class="footer__status">
+                    <div class="offline-indicator" id="offline-indicator">
+                        <span class="offline-indicator__dot"></span>
+                        <span id="connection-status">Online</span>
+                    </div>
+                    <a class="btn btn--outline btn--sm" id="contribute-github" href="https://github.com/BarrileteChapin/Heatwave-Information-2025" target="_blank" rel="noopener" aria-label="Contribute on GitHub" style="display: inline-flex; align-items: center; gap: 0.4em; margin-left: 0.5em;">
+                        <svg height="18" viewBox="0 0 16 16" width="18" aria-hidden="true" focusable="false" style="vertical-align: middle;"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+                        Contribute
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="loading-spinner"></div>
+        <p>Loading emergency services data...</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+            crossorigin=""></script>
+    <script src="app.js"></script>
+</body>
+</html>

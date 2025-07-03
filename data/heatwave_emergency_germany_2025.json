@@ -1,0 +1,192 @@
+{
+  "country": "Germany",
+  "country_code": "DE",
+  "last_updated": "2025-07-03T04:00:00Z",
+  "current_status": {
+    "alert_level": "ORANGE",
+    "affected_regions": "Berlin, Brandenburg, NRW, Bayern (Südost), Sachsen-Anhalt",
+    "peak_temperature": "39.3°C",
+    "alert_valid_until": "2025-07-04",
+    "description": "DWD Code Orange: 39 °C in Rheinland-Pfalz (Andernach); Schutzmaßnahmen aktiviert, Berlin erweitert kühle Räume Netz"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "Europäischer Notruf",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Deutsch/English",
+      "free": true,
+      "description": "Feuerwehr, Rettungsdienst, Polizei – Hitzeprotokolle aktiv"
+    },
+    {
+      "name": "Ärztlicher Bereitschaftsdienst",
+      "number": "116117",
+      "type": "medical_advice",
+      "available": "24/7",
+      "language": "Deutsch",
+      "free": true,
+      "description": "Nicht-lebensbedrohliche hitzebedingte Beschwerden – bundesweit"
+    },
+    {
+      "name": "Berliner Hitzetelefon (Silbernetz e. V.)",
+      "number": "030 544 533 0 333",
+      "type": "heatwave_hotline",
+      "available": "Mo–Fr 10-14 Uhr (Rückrufservice während Warnstufen)",
+      "language": "Deutsch",
+      "free": true,
+      "description": "Registrierung & tägliche Anrufe für Senior*innen ab 75 Jahren"      
+    },
+    {
+      "name": "DRK Hitzeschutztelefon Marzahn-Hellersdorf",
+      "number": "030 8093319-14",
+      "type": "community_support",
+      "available": "24/7 (1 Jun – 30 Sep)",
+      "language": "Deutsch",
+      "free": true,
+      "description": "Tipps, Ersthilfe bei Hitze, Vermittlung zu kühlen Orten"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Kühler Raum – KIEZKLUB Allende",
+      "address": "Salvador-Allende-Str. 89, 12559 Berlin",
+      "latitude": 52.4410,
+      "longitude": 13.6289,
+      "type": "community_center",
+      "capacity": "80 Plätze",
+      "operating_hours": "09:00–18:00 (01 Jun–31 Aug)",
+      "amenities": ["Klimatisierter Saal", "Trinkwasser", "WC", "Ruhezone"],
+      "contact": "+49 30 675 028 46",
+      "accessibility": "Ebenerdig, barrierefrei"
+    },
+    {
+      "name": "Stadtbibliothek Buch – Kühlraum",
+      "address": "Wiltbergstr. 19-23, 13125 Berlin",
+      "latitude": 52.6350,
+      "longitude": 13.5002,
+      "type": "library",
+      "capacity": "60 Personen",
+      "operating_hours": "10:00–19:00 (Mo–Fr)",
+      "amenities": ["Air-Conditioning", "WLAN", "Lesesaal", "Wasserspender"],
+      "contact": "+49 30 90295 3800",
+      "accessibility": "Aufzug und Rampen"
+    },
+    {
+      "name": "Rathaus Pankow – Kühlhalle",
+      "address": "Breite Str. 24a-26, 13187 Berlin",
+      "latitude": 52.5690,
+      "longitude": 13.4022,
+      "type": "government_building",
+      "capacity": "120 Personen",
+      "operating_hours": "08:00–16:00 (werktags, verlängerbar bei Warnstufe 2)",
+      "amenities": ["Beschattete Wartehalle", "Sitzgelegenheiten", "Trinkbrunnen"],
+      "contact": "+49 30 90295 0",
+      "accessibility": "Rollstuhlgerecht"
+    },
+    {
+      "name": "Kühle Räume Treptow-Köpenick (4 Standorte)",
+      "address": "Bezirkstreffpunkte, siehe senatsinfo",
+      "latitude": 52.4575,
+      "longitude": 13.5430,
+      "type": "multi_site",
+      "capacity": "ca. 250 Plätze gesamt",
+      "operating_hours": "10:00–18:00 (täglich während Hitzeaktion)",
+      "amenities": ["Klimageräte", "Sofas", "Getränke", "Beratung"],
+      "contact": "bezirk@ba-tk.berlin.de",
+      "accessibility": "Variiert – mind. 1 Standort barrierefrei"
+    },
+    {
+      "name": "Stadtbibliothek München (Zentrale Gasteig HP8)",
+      "address": "Hans-Preißinger-Str. 8, 81379 München",
+      "latitude": 48.1115,
+      "longitude": 11.5584,
+      "type": "library",
+      "capacity": "400 Besucher",
+      "operating_hours": "10:00–20:00",
+      "amenities": ["Klimaanlage", "Ruhezonen", "Wasserstation"],
+      "contact": "+49 89 48098-0",
+      "accessibility": "Vollständig barrierefrei"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Charité Campus Virchow – Notaufnahme",
+      "address": "Augustenburger Platz 1, 13353 Berlin",
+      "latitude": 52.5423,
+      "longitude": 13.3501,
+      "service_level": "Hitzeschlag-Protokoll aktiv, 10 zusätzliche Kühlbetten",
+      "contact": "+49 30 450 553002",
+      "availability": "Notaufnahme 24/7",
+      "notes": "Kaltwasser-Immersion seit 01 Jul 2025"
+    },
+    {
+      "name": "Universitätsklinikum Köln",
+      "address": "Kerpener Str. 62, 50937 Köln",
+      "latitude": 50.9244,
+      "longitude": 6.9272,
+      "service_level": "Hitzeaktionsplan Stufe 2; Personalaufstockung +15 %",
+      "contact": "+49 221 478-0",
+      "availability": "Notfallzentrum 24/7",
+      "notes": "Mobile Kühlzelte einsatzbereit"
+    },
+    {
+      "name": "Klinikum rechts der Isar – München",
+      "address": "Ismaninger Str. 22, 81675 München",
+      "latitude": 48.1390,
+      "longitude": 11.6036,
+      "service_level": "Bayerischer Hitzeplan aktiviert, 12 Kühlplätze",
+      "contact": "+49 89 4140-0",
+      "availability": "Notaufnahme 24/7",
+      "notes": "Schnellspur für dehydrierte Patient*innen"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "DWD Hitze-Warnsystem",
+      "service_type": "weather_information",
+      "contact": "https://www.dwd.de/DE/leistungen/hitzewarnung/hitzewarnungen_node.html",
+      "description": "Amtliche Warnungen, Push-Service & Newsletter",
+      "available": "Tägliche Aktualisierung"
+    },
+    {
+      "name": "RKI Heat Health Action Recommendations",
+      "service_type": "health_guidance",
+      "contact": "https://www.rki.de/hitze",
+      "description": "Risikogruppen-Infos, Cool-Map Links",
+      "available": "Mai–September"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.tagesschau.de/inland/gesellschaft/hitze-wetter-klimawandel-heissester-tag-100.html",
+      "title": "DWD meldet 39,3 °C – heißester Tag 2025",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.berlin.de/ba-neukoelln/aktuelles/pressemitteilungen/2025/pressemitteilung.1568163.php",
+      "title": "Hitzetelefon Neukölln gestartet",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.berlin.de/ba-marzahn-hellersdorf/aktuelles/pressemitteilungen/2025/pressemitteilung.1568054.php",
+      "title": "24-h Hitzeschutztelefon Marzahn-Hellersdorf",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.berlin.de/ba-treptow-koepenick/aktuelles/pressemitteilungen/2025/pressemitteilung.1566583.php",
+      "title": "Kühle Räume Kampagne „Bärenhitze“",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://ru.muenchen.de/2024/151/Hitzeschutz-Neue-interaktive-Karte-kuehler-Orte-114214",
+      "title": "München – interaktive Karte kühler Orte",
+      "accessed": "2025-07-02"
+    }
+  ]
+}

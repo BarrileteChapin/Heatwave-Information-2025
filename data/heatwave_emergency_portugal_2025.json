@@ -1,0 +1,205 @@
+{
+  "country": "Portugal",
+  "country_code": "PT", 
+  "last_updated": "2025-07-03T02:00:00Z",
+  "current_status": {
+    "alert_level": "RED",
+    "affected_districts": 7,
+    "peak_temperature": "46.6°C",
+    "alert_valid_until": "2025-07-05",
+    "description": "Extreme heatwave continues with record 46.6°C in Mora; RED alert maintained for Évora, Portalegre, Castelo Branco, Santarém, Setúbal, Beja, and Faro with elevated fire risk"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency", 
+      "available": "24/7",
+      "language": "Português/English/Español/Français",
+      "free": true,
+      "description": "Serviços de emergência europeus - bombeiros, médicos, polícia com protocolos de onda de calor"
+    },
+    {
+      "name": "Saúde 24 - Linha de Aconselhamento Médico",
+      "number": "808 24 24 24",
+      "type": "medical_advice",
+      "available": "24/7",
+      "language": "Português",
+      "free": true,
+      "description": "Aconselhamento médico gratuito com protocolo específico para sintomas relacionados com calor"
+    },
+    {
+      "name": "Bombeiros - Linha de Emergência",
+      "number": "117",
+      "type": "fire_emergency",
+      "available": "24/7", 
+      "language": "Português",
+      "free": true,
+      "description": "Serviços de bombeiros com protocolos de emergência por calor extremo"
+    },
+    {
+      "name": "ANEPC - Autoridade Nacional de Emergência",
+      "number": "112",
+      "type": "civil_protection",
+      "available": "24/7",
+      "language": "Português",
+      "free": true,
+      "description": "Coordenação nacional de emergência e proteção civil durante eventos climáticos extremos"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Biblioteca Nacional de Portugal",
+      "address": "Campo Grande 83, 1749-081 Lisboa",
+      "latitude": 38.7515,
+      "longitude": -9.1532,
+      "type": "library",
+      "capacity": "500 visitantes",
+      "operating_hours": "10:00-18:00 (horário estendido durante alerta vermelho)",
+      "amenities": ["Ar condicionado", "WiFi gratuito", "Bebedouros", "Salas de leitura silenciosas"],
+      "contact": "+351 21 798 2000",
+      "accessibility": "Acesso total para mobilidade reduzida"
+    },
+    {
+      "name": "Centro Comercial Colombo",
+      "address": "Av. Lusíada, 1500-392 Lisboa", 
+      "latitude": 38.7579,
+      "longitude": -9.1845,
+      "type": "shopping_center",
+      "capacity": "5000+ visitantes",
+      "operating_hours": "10:00-24:00",
+      "amenities": ["Ar condicionado central", "Praça de alimentação", "Cinema", "Zonas de descanso"],
+      "contact": "+351 21 711 3600",
+      "accessibility": "Totalmente acessível"
+    },
+    {
+      "name": "Museu Nacional de Arte Antiga",
+      "address": "R. das Janelas Verdes, 1249-017 Lisboa",
+      "latitude": 38.7043,
+      "longitude": -9.1636,
+      "type": "museum",
+      "capacity": "300 visitantes",
+      "operating_hours": "10:00-18:00 (entrada gratuita >65 anos durante alerta)",
+      "amenities": ["Climatização", "Café com bebidas frias", "Jardim interior sombreado"],
+      "contact": "+351 21 391 2800",
+      "accessibility": "Elevador e rampas disponíveis"
+    },
+    {
+      "name": "Biblioteca Almeida Garrett - Porto",
+      "address": "Jardins do Palácio de Cristal, 4150-755 Porto",
+      "latitude": 41.1496,
+      "longitude": -8.6378,
+      "type": "library",
+      "capacity": "400 visitantes",
+      "operating_hours": "10:00-19:00 (Segunda a Sábado)",
+      "amenities": ["Ar condicionado", "Espaços de trabalho", "Bebedouros", "Terraço coberto"],
+      "contact": "+351 22 340 9116",
+      "accessibility": "Acesso PMR completo"
+    },
+    {
+      "name": "Piscina Municipal de Coimbra",
+      "address": "Rua Dom Manuel I, 3000-081 Coimbra",
+      "latitude": 40.2033,
+      "longitude": -8.4103,
+      "type": "swimming_pool",
+      "capacity": "800 utilizadores",
+      "operating_hours": "09:00-20:00 (preço reduzido durante alerta vermelho)",
+      "amenities": ["Piscina coberta", "Balneários", "Zonas sombreadas", "Duches"],
+      "contact": "+351 239 701 300",
+      "accessibility": "Elevador aquático disponível"
+    },
+    {
+      "name": "Centro de Artes de Évora",
+      "address": "R. de Serpa Pinto 96, 7000-110 Évora",
+      "latitude": 38.5664,
+      "longitude": -7.9078,
+      "type": "cultural_center",
+      "capacity": "200 pessoas",
+      "operating_hours": "14:00-19:00 (entrada gratuita durante emergência)",
+      "amenities": ["Climatização", "Café", "Espaços de descanso", "Fontes de água"],
+      "contact": "+351 266 707 920",
+      "accessibility": "Rampa de acesso principal"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Hospital de Santa Maria (CHULN)",
+      "address": "Av. Prof. Egas Moniz, 1649-028 Lisboa",
+      "latitude": 38.7499,
+      "longitude": -9.1580,
+      "service_level": "Protocolo onda de calor ativo - reforço equipa urgência",
+      "contact": "+351 21 780 5000",
+      "availability": "Urgências 24/7",
+      "notes": "Unidade de arrefecimento corporal operacional desde 01/07/2025"
+    },
+    {
+      "name": "Hospital de São João - Porto",
+      "address": "Alameda Prof. Hernâni Monteiro, 4200-319 Porto",
+      "latitude": 41.1778,
+      "longitude": -8.6014,
+      "service_level": "Plano contingência calor - capacidade reforçada",
+      "contact": "+351 22 551 2100",
+      "availability": "Urgências 24/7",
+      "notes": "Equipamento de imersão fria disponível para casos graves"
+    },
+    {
+      "name": "Hospital de Santo António dos Capuchos",
+      "address": "Alameda de Santo António dos Capuchos, 1169-050 Lisboa",
+      "latitude": 38.7321,
+      "longitude": -9.1437,
+      "service_level": "Vigilância reforçada golpe de calor",
+      "contact": "+351 21 313 1800",
+      "availability": "Urgências 24/7",
+      "notes": "Protocolo fast-track para patologias relacionadas com calor"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Direção-Geral da Saúde - Linha Onda de Calor",
+      "service_type": "health_information",
+      "contact": "https://www.dgs.pt",
+      "description": "Informação oficial sobre prevenção e sintomas relacionados com ondas de calor",
+      "available": "Atualização contínua"
+    },
+    {
+      "name": "Cruz Vermelha Portuguesa - Apoio Comunitário",
+      "service_type": "community_support",
+      "contact": "+351 21 771 4400",
+      "description": "Apoio domiciliário a populações vulneráveis durante eventos climáticos extremos",
+      "available": "08:00-20:00"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.ipma.pt/pt/otempo/alertas/",
+      "title": "IPMA Avisos Meteorológicos Oficiais",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.dgs.pt/paginas-de-sistema/saude-de-a-a-z/ondas-de-calor.aspx",
+      "title": "Direção-Geral da Saúde - Ondas de Calor",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.anepc.gov.pt/",
+      "title": "Autoridade Nacional de Emergência e Proteção Civil",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.sns24.gov.pt/",
+      "title": "Saúde 24 - Linha de Aconselhamento Médico",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.portaldasaude.pt/portal/conteudos/enciclopedia+da+saude/emergencia/emergencia.htm",
+      "title": "Portal da Saúde - Serviços de Emergência",
+      "accessed": "2025-07-03"
+    }
+  ]
+}
+  

@@ -1,0 +1,155 @@
+{
+  "country": "Bulgaria",
+  "country_code": "BG",
+  "last_updated": "2025-07-03T09:00:00Z",
+  "current_status": {
+    "alert_level": "ORANGE",
+    "affected_regions": "Nationwide, particularly Sofia and southern regions",
+    "peak_temperature": "38°C", 
+    "alert_valid_until": "2025-07-05",
+    "description": "Sustained high temperatures with elevated health risks; National Institute of Meteorology and Hydrology maintaining heat advisories"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Bulgarian/English/Russian",
+      "free": true,
+      "description": "Unified emergency services for all types of emergencies"
+    },
+    {
+      "name": "Police Emergency",
+      "number": "166", 
+      "type": "police_emergency",
+      "available": "24/7",
+      "language": "Bulgarian",
+      "free": true,
+      "description": "National police emergency services"
+    },
+    {
+      "name": "Medical Emergency",
+      "number": "150",
+      "type": "medical_emergency",
+      "available": "24/7",
+      "language": "Bulgarian",
+      "free": true,
+      "description": "Emergency medical services and ambulance with heat emergency protocols"
+    },
+    {
+      "name": "Fire Emergency",
+      "number": "160",
+      "type": "fire_emergency", 
+      "available": "24/7",
+      "language": "Bulgarian",
+      "free": true,
+      "description": "Fire brigade and civil protection services"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Sofia City Library",
+      "address": "Slavyanska ul. 52, 1000 Sofia",
+      "latitude": 42.6977,
+      "longitude": 23.3219,
+      "type": "library",
+      "capacity": "400 visitors",
+      "operating_hours": "09:00-19:00 (Mon-Fri), 09:00-15:00 (Sat)",
+      "amenities": ["Air conditioning", "Reading halls", "Free WiFi", "Study areas"], 
+      "contact": "+359 2 9884 922",
+      "accessibility": "Wheelchair accessible"
+    },
+    {
+      "name": "Paradise Center Sofia",
+      "address": "Cherni Vrah Blvd 100, 1407 Sofia",
+      "latitude": 42.6366,
+      "longitude": 23.3814,
+      "type": "shopping_center",
+      "capacity": "3000+ visitors",
+      "operating_hours": "10:00-22:00 daily",
+      "amenities": ["Central air conditioning", "Food court", "Cinema", "Entertainment areas"],
+      "contact": "+359 2 8102 888",
+      "accessibility": "Fully accessible"
+    },
+    {
+      "name": "National Palace of Culture", 
+      "address": "Bulgaria Square 1, 1463 Sofia",
+      "latitude": 42.6864,
+      "longitude": 23.3168,
+      "type": "cultural_center",
+      "capacity": "800 visitors",
+      "operating_hours": "09:00-21:00 during events/exhibitions",
+      "amenities": ["Climate controlled halls", "Restaurants", "Conference areas"],
+      "contact": "+359 2 916 2300",
+      "accessibility": "Accessible entrances and lifts"
+    },
+    {
+      "name": "Plovdiv Regional Library",
+      "address": "Ivan Vazov ul. 2, 4000 Plovdiv",
+      "latitude": 42.1354,
+      "longitude": 24.7453,
+      "type": "library",
+      "capacity": "300 visitors", 
+      "operating_hours": "08:30-18:00 (Mon-Fri), 09:00-14:00 (Sat)",
+      "amenities": ["Air conditioning", "Computer areas", "Children's section"],
+      "contact": "+359 32 625 032",
+      "accessibility": "Ground floor accessible"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "University Hospital Alexandrovska",
+      "address": "Georgi Sofiiski Blvd 1, 1431 Sofia",
+      "latitude": 42.6911,
+      "longitude": 23.3347,
+      "service_level": "National heat emergency protocol - enhanced emergency capacity",
+      "contact": "+359 2 9230 719", 
+      "availability": "Emergency Department 24/7",
+      "notes": "Additional cooling equipment and heat-stroke treatment protocols operational"
+    },
+    {
+      "name": "UMHAT Plovdiv",
+      "address": "Vasil Aprilov Blvd 15A, 4002 Plovdiv",
+      "latitude": 42.1240,
+      "longitude": 24.7697,
+      "service_level": "Regional coordination center for southern Bulgaria",
+      "contact": "+359 32 602 334",
+      "availability": "Emergency services 24/7",
+      "notes": "Enhanced monitoring and treatment capacity during heat episodes"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "National Institute of Meteorology and Hydrology", 
+      "service_type": "weather_information",
+      "contact": "https://www.weather.bg",
+      "description": "Official weather forecasts and heat warnings",
+      "available": "24/7 monitoring and alerts"
+    },
+    {
+      "name": "Ministry of Health Emergency Response",
+      "service_type": "health_coordination",
+      "contact": "https://www.mh.government.bg",
+      "description": "National health emergency coordination and public guidance",
+      "available": "Enhanced response during extreme weather events"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.visitsofia.bg/en/item/2739-stolichnata-biblioteka-otvarj-vrati",
+      "title": "Sofia City Library Emergency Services Information",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://watchers.news/2024/07/16/intense-long-duration-heatwave-affecting-se-europe/",
+      "title": "Intense heatwave affecting Southeast Europe including Bulgaria", 
+      "accessed": "2025-07-03"
+    }
+  ]
+}

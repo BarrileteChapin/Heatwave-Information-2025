@@ -1,0 +1,195 @@
+{
+  "country": "Spain",
+  "country_code": "ES",
+  "last_updated": "2025-07-02T23:50:00Z",
+  "current_status": {
+    "alert_level": "RED",
+    "affected_regions": 38,
+    "peak_temperature": "46.6°C",
+    "alert_valid_until": "2025-07-05",
+    "description": "Extreme heatwave persists; up to 46°C recorded in El Granado (Huelva), AEMET maintains RED warnings across Andalusia, Extremadura, Madrid and others"
+  },
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Multilingual",
+      "free": true,
+      "description": "Centralised emergency dispatch (police, fire, medical) with heatwave protocols"
+    },
+    {
+      "name": "AEMET Heatwave Hotline (Andalucía 112 opción 5)",
+      "number": "112",
+      "type": "weather_emergency",
+      "available": "24/7",
+      "language": "Español",
+      "free": true,
+      "description": "Información de alertas y consejos de Protección Civil"
+    },
+    {
+      "name": "061 CatSalut Respon",
+      "number": "061",
+      "type": "medical_emergency",
+      "available": "24/7",
+      "language": "Català / Español / English",
+      "free": true,
+      "description": "Triaje médico y ambulancias con protocolo de golpe de calor"
+    },
+    {
+      "name": "Salud Responde Andalucía",
+      "number": "955 545 060",
+      "type": "medical_advice",
+      "available": "24/7",
+      "language": "Español",
+      "free": false,
+      "description": "Consejos de enfermería para síntomas relacionados con el calor"
+    }
+  ],
+  "cooling_centers": [
+    {
+      "name": "Círculo de Bellas Artes – Refugio Climático",
+      "address": "Calle de Alcalá 42, 28014 Madrid",
+      "latitude": 40.4186,
+      "longitude": -3.6996,
+      "type": "cultural_center",
+      "capacity": "300 personas",
+      "operating_hours": "11:00–20:00 (11 Jul – 8 Sep gratuito)",
+      "amenities": ["Aire acondicionado", "Zona verde interior con 300 plantas", "Agua potable"],
+      "contact": "+34 91 360 5400",
+      "accessibility": "Acceso PMR y ascensores"
+    },
+    {
+      "name": "SAMUR Social – Espacio climatizado",
+      "address": "Carrera de San Francisco 10, 28005 Madrid",
+      "latitude": 40.4099,
+      "longitude": -3.7149,
+      "type": "shelter",
+      "capacity": "80 plazas diurnas",
+      "operating_hours": "09:00–20:00 mientras nivel 2+",
+      "amenities": ["Climatización", "Agua y alimentos fríos", "Duchas"],
+      "contact": "+34 91 588 3235",
+      "accessibility": "Rampas, baños adaptados"
+    },
+    {
+      "name": "Biblioteca Sant Pau – Refugi Climàtic",
+      "address": "C/ Sant Pau 43, 08001 Barcelona",
+      "latitude": 41.3802,
+      "longitude": 2.1690,
+      "type": "library",
+      "capacity": "150 visitantes",
+      "operating_hours": "10:00–19:00 (Jun–Sep)",
+      "amenities": ["Aire acondicionado", "Wifi", "Fuentes de agua"],
+      "contact": "+34 93 343 5990",
+      "accessibility": "Acceso PMR"
+    },
+    {
+      "name": "Piscina Puerta de Hierro",
+      "address": "Carretera de La Coruña, km 7, 28040 Madrid",
+      "latitude": 40.4625,
+      "longitude": -3.7312,
+      "type": "pool",
+      "capacity": "1200 bañistas",
+      "operating_hours": "10:00–21:00 (15 May – 7 Sep)",
+      "amenities": ["Piscinas olímpicas", "Sombras", "Vestuarios"],
+      "contact": "+34 91 735 5760",
+      "accessibility": "Sillas anfibias disponibles"
+    },
+    {
+      "name": "Pabellón Cuartel de Artillería – Refugio Climático",
+      "address": "C/ Cartagena s/n, 30002 Murcia",
+      "latitude": 37.9805,
+      "longitude": -1.1307,
+      "type": "community_center",
+      "capacity": "250 personas",
+      "operating_hours": "10:00–20:00 (1 Jun–30 Sep)",
+      "amenities": ["Climatización", "Zona de descanso", "Fuentes de agua"],
+      "contact": "+34 968 358 600",
+      "accessibility": "Acceso PMR"
+    }
+  ],
+  "hospitals": [
+    {
+      "name": "Hospital Universitario La Paz",
+      "address": "Paseo de la Castellana 261, 28046 Madrid",
+      "latitude": 40.4760,
+      "longitude": -3.6897,
+      "service_level": "Plan de contingencia ola de calor; temperatura mínima 25°C",
+      "contact": "+34 91 727 7000",
+      "availability": "Urgencias 24/7",
+      "notes": "Equipos portátiles de refrigeración en áreas críticas"
+    },
+    {
+      "name": "Hospital Virgen del Rocío",
+      "address": "Av. Manuel Siurot s/n, 41013 Sevilla",
+      "latitude": 37.3664,
+      "longitude": -5.9800,
+      "service_level": "Protocolo Golpe de Calor activado",
+      "contact": "+34 955 012 000",
+      "availability": "Urgencias 24/7",
+      "notes": "Incremento de 15% en personal de guardia"
+    },
+    {
+      "name": "Hospital Clínic de Barcelona",
+      "address": "C/ Villarroel 170, 08036 Barcelona",
+      "latitude": 41.3854,
+      "longitude": 2.1428,
+      "service_level": "Unidad de estrés térmico abierta",
+      "contact": "+34 93 227 5400",
+      "availability": "Urgencias 24/7",
+      "notes": "Sala de inmersión fría para casos graves"
+    }
+  ],
+  "health_services": [
+    {
+      "name": "Plan Nacional de Actuaciones Preventivas – Ministerio de Sanidad",
+      "service_type": "information",
+      "contact": "https://meteosalud.es",
+      "description": "Mapa diario de riesgo por calor y recomendaciones sanitarias",
+      "available": "Actualización diaria"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.larazon.es/el-tiempo/ola-calor-espana-directo-hoy-incendios-cambio-tiempo-aviso-aemet_202507026864c5a577c930725865155e.html",
+      "title": "AEMET avisos ola de calor",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.tiempo.com/noticias/prediccion/la-aemet-advierte-a-los-vecinos-de-madrid-se-avecinan-dos-mediodias-mas-con-avisos-naranjas-por-39-c.html",
+      "title": "AEMET Madrid avisos",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://okdiario.com/salud/ni-parques-ni-centros-comerciales-nuevo-refugio-climatico-madrid-perfecto-mayores-65-anos-15033266",
+      "title": "Refugio climático Círculo de Bellas Artes",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.lavanguardia.com/local/barcelona/20250604/10752794/barcelona-amplia-red-refugios-climaticos-26-nuevos-espacios.html",
+      "title": "Barcelona amplia refugios climáticos",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.lavanguardia.com/autonomias/20250627/10832196/madrid-habilita-hoy-espacio-climatizado-personas-hogar-altas-temperaturas-agenciaslv20250627.html",
+      "title": "Madrid habilita espacio climatizado SAMUR Social",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.20minutos.es/noticia/5723820/0/confirmado-si-tienes-menos-30-anos-puedes-entrar-gratis-estas-piscinas-municipales-madrid/",
+      "title": "Piscineo 2025 – piscinas gratuitas",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.lasexta.com/noticias/sociedad/hospitales-espanoles-asfixiados-calor-pacientes-sindicatos-denuncian-altas-temperaturas-que-sufren-centros_20250701686456e477c930725864ea41.html",
+      "title": "Hospitales españoles asfixiados por calor",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.elconfidencial.com/bienestar/2025-06-16/alerta-sanidad-riesgo-salud-exceso-calor-zonas-espana_4152133/",
+      "title": "Sanidad alerta riesgo salud por exceso de calor",
+      "accessed": "2025-07-02"
+    }
+  ]
+}

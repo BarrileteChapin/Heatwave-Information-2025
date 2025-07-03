@@ -1,0 +1,208 @@
+{
+  "country": "Netherlands",
+  "country_code": "NL", 
+  "last_updated": "2025-07-03T03:15:00Z",
+  "current_status": {
+    "alert_level": "ORANGE",
+    "affected_provinces": [
+      "Limburg",
+      "Noord-Brabant", 
+      "Gelderland"
+    ],
+    "peak_temperature": "38.5°C",
+    "alert_valid_until": "2025-07-04",
+    "description": "Code Oranje blijft van kracht voor zuidoostelijke provincies; KNMI waarschuwt voor aanhoudende hitte met Nationaal Hitteplan geactiveerd voor kwetsbare groepen"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7", 
+      "language": "Nederlands/English/Deutsch",
+      "free": true,
+      "description": "Europees alarmnummer - brandweer, ambulance, politie met hitteprotocollen"
+    },
+    {
+      "name": "Huisartsenpost",
+      "number": "0900-88 77",
+      "type": "medical_advice",
+      "available": "24/7",
+      "language": "Nederlands",
+      "free": false,
+      "description": "Medisch advies buiten kantooruren voor hittegerelateerde klachten"
+    },
+    {
+      "name": "GGD Hittelijnt",
+      "number": "0900-1515", 
+      "type": "health_information",
+      "available": "08:00-20:00",
+      "language": "Nederlands",
+      "free": false,
+      "description": "Gezondheidsadvies en preventietips tijdens hittegolven"
+    },
+    {
+      "name": "KNMI Weeralarmlijn",
+      "number": "0900-WEER (0900-9337)",
+      "type": "weather_information",
+      "available": "24/7",
+      "language": "Nederlands",
+      "free": false,
+      "description": "Actuele weerswaarschuwingen en hittevoorspellingen"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Openbare Bibliotheek Amsterdam - Centrale Bibliotheek",
+      "address": "Oosterdokskade 143, 1011 DL Amsterdam",
+      "latitude": 52.3747,
+      "longitude": 4.9095,
+      "type": "library",
+      "capacity": "1200 bezoekers",
+      "operating_hours": "10:00-22:00 (ma-zo, verlenging tijdens Code Oranje)",
+      "amenities": ["Airconditioning", "Gratis WiFi", "Leeszalen", "Café met koude dranken"],
+      "contact": "+31 20 523 0900",
+      "accessibility": "Volledig toegankelijk voor rolstoelgebruikers"
+    },
+    {
+      "name": "Markthal Rotterdam",
+      "address": "Dominee Jan Scharpstraat 298, 3011 GZ Rotterdam", 
+      "latitude": 51.9200,
+      "longitude": 4.4856,
+      "type": "market_hall",
+      "capacity": "4000+ bezoekers",
+      "operating_hours": "10:00-20:00 (ma-do), 10:00-21:00 (vr-za)",
+      "amenities": ["Centrale airconditioning", "Foodcourt", "Zitplekken", "Fontein"],
+      "contact": "+31 10 234 96 43",
+      "accessibility": "Liften en rolstoeltoegankelijk"
+    },
+    {
+      "name": "Rijksmuseum Amsterdam",
+      "address": "Museumstraat 1, 1071 XX Amsterdam",
+      "latitude": 52.3600,
+      "longitude": 4.8852,
+      "type": "museum",
+      "capacity": "800 bezoekers tegelijk",
+      "operating_hours": "09:00-17:00 (gratis voor 65+ tijdens hittegolf)",
+      "amenities": ["Klimaatregeling", "Café", "Tuinrestaurant", "Rustgebieden"],
+      "contact": "+31 20 674 7000",
+      "accessibility": "Toegankelijk, rolstoelverhuur beschikbaar"
+    },
+    {
+      "name": "De Zwemkom - Eindhoven",
+      "address": "Antoon Coolenlaan 1, 5644 RX Eindhoven",
+      "latitude": 51.4059,
+      "longitude": 5.5014,
+      "type": "swimming_pool",
+      "capacity": "600 zwemmers",
+      "operating_hours": "07:00-22:00 (korting senioren tijdens hittewaarschuwing)",
+      "amenities": ["Binnenbad", "Kleedkamers", "Douches", "Schaduwrijke buitenruimte"],
+      "contact": "+31 40 238 1100",
+      "accessibility": "Zwembadlift voor mindervaliden"
+    },
+    {
+      "name": "Stadsbibliotheek Utrecht - Neude",
+      "address": "Neude 11, 3512 AE Utrecht",
+      "latitude": 52.0907,
+      "longitude": 5.1214,
+      "type": "library", 
+      "capacity": "500 bezoekers",
+      "operating_hours": "10:00-18:00 (ma-za)",
+      "amenities": ["Klimaatbeheersing", "Stilteruimtes", "Internetwerkplekken", "Waterkoelers"],
+      "contact": "+31 30 286 1800",
+      "accessibility": "Lift en aangepaste toegang"
+    },
+    {
+      "name": "Gemeente Den Haag - Stadhuis",
+      "address": "Spui 70, 2511 BT Den Haag", 
+      "latitude": 52.0704,
+      "longitude": 4.3007,
+      "type": "government_building",
+      "capacity": "300 personen (publieke gebieden)",
+      "operating_hours": "08:30-17:00 (ma-vr, koelruimte tijdens Code Oranje)",
+      "amenities": ["Centrale koeling", "Publieke wachtruimtes", "Drinkfonteinen"],
+      "contact": "+31 70 353 3000",
+      "accessibility": "Rolstoeltoegankelijk, lift aanwezig"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Amsterdam UMC - Locatie AMC",
+      "address": "Meibergdreef 9, 1105 AZ Amsterdam",
+      "latitude": 52.2937,
+      "longitude": 4.9524,
+      "service_level": "Hitteprotocol actief - extra personeel SEH",
+      "contact": "+31 20 566 9111", 
+      "availability": "Spoedeisende hulp 24/7",
+      "notes": "Koelingsapparatuur beschikbaar voor hitteberoerte vanaf 01/07/2025"
+    },
+    {
+      "name": "Erasmus MC - Rotterdam",
+      "address": "Dr. Molewaterplein 40, 3015 GD Rotterdam",
+      "latitude": 51.9095,
+      "longitude": 4.4687,
+      "service_level": "Nationaal Hitteplan geactiveerd - verhoogde capaciteit",
+      "contact": "+31 10 703 2000",
+      "availability": "Traumacentrum 24/7",
+      "notes": "Speciale koelkamer operationeel voor ernstige hitteziekten"
+    },
+    {
+      "name": "Radboudumc - Nijmegen", 
+      "address": "Geert Grooteplein Zuid 10, 6525 GA Nijmegen",
+      "latitude": 51.8181,
+      "longitude": 5.8706,
+      "service_level": "Hittegolf-protocol - uitgebreide monitoring",
+      "contact": "+31 24 361 1111",
+      "availability": "Spoedeisende hulp 24/7",
+      "notes": "Mobiele koeleenheden stand-by bij temperaturen >36°C"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "RIVM Nationaal Hitteplan",
+      "service_type": "health_coordination",
+      "contact": "https://www.rivm.nl/hitte",
+      "description": "Landelijke coördinatie hittemaatregelen en gezondheidsadviezen voor kwetsbare groepen",
+      "available": "Mei-september, 24/7 tijdens Code Oranje/Rood"
+    },
+    {
+      "name": "Thuiszorg Nederland - Hittezorg",
+      "service_type": "elderly_support",
+      "contact": "+31 30 291 9000", 
+      "description": "Extra ondersteuning thuiswonende ouderen tijdens extreme hitte",
+      "available": "08:00-17:00 werkdagen"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.knmi.nl/waarschuwingen",
+      "title": "KNMI Officiële Weerswaarschuwingen",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.rivm.nl/hitte/nationaal-hitteplan",
+      "title": "RIVM Nationaal Hitteplan 2025", 
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.ggd.nl/thema/hitte-en-gezondheid",
+      "title": "GGD Nederland - Hitte en Gezondheid",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://nltimes.nl/2025/06/30/extreme-heat-triggers-code-orange-weather-warning-dutch-provinces",
+      "title": "NL Times - Code Orange Heat Warning",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.amsterdam.nl/nieuws/nieuwsoverzicht/koelte-zoeken-tijdens-hittegolf/",
+      "title": "Gemeente Amsterdam - Koeltelocaties tijdens hittegolf",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

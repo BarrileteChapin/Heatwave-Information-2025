@@ -1,0 +1,210 @@
+{
+  "country": "France",
+  "country_code": "FR",
+  "last_updated": "2025-07-02T23:45:00Z",
+  "current_status": {
+    "alert_level": "RED",
+    "affected_departments": 40,
+    "peak_temperature": "41.4°C",
+    "alert_valid_until": "2025-07-04",
+    "description": "Persistent national heatwave; red alert for Île-de-France, Centre-Val de Loire and parts of Provence. Free cooling venues and medical surge plans activated."
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "Canicule Info Service",
+      "number": "0800 06 66 66",
+      "type": "heatwave_hotline",
+      "available": "08:00-19:00 quotidien",
+      "language": "Français",
+      "free": true,
+      "description": "Plateforme officielle de conseils canicule du ministère de la Santé"      
+    },
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Multilingue",
+      "free": true,
+      "description": "Police-Pompiers-SAMU (appel gratuit depuis mobile ou fixe)"
+    },
+    {
+      "name": "SAMU – Service d’Aide Médicale Urgente",
+      "number": "15",
+      "type": "medical_emergency",
+      "available": "24/7",
+      "language": "Français",
+      "free": true,
+      "description": "Urgence médicale avec régulation Centre 15"
+    },
+    {
+      "name": "SOS Médecins",
+      "number": "3624",
+      "type": "medical_advice",
+      "available": "24/7",
+      "language": "Français",
+      "free": false,
+      "description": "Visites et téléconsultations à domicile – surtaxé"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Réseau Musées de Paris (Îlots de fraîcheur)",
+      "address": "Divers sites climatisés, Paris 75000",
+      "latitude": 48.8566,
+      "longitude": 2.3522,
+      "type": "museums",
+      "capacity": "1 400+ lieux",
+      "operating_hours": "Horaires variables (souvent 10:00–18:00)",
+      "amenities": ["Climatisation", "Eau potable", "Accès gratuit jusqu’au 04/07"],
+      "contact": "paris.fr/canicule",
+      "accessibility": "Majorité accessibles PMR"
+    },
+    {
+      "name": "Église Saint-Médard (Refuge frais)",
+      "address": "141 rue Mouffetard, 75005 Paris",
+      "latitude": 48.8393,
+      "longitude": 2.3503,
+      "type": "lieu_de_culte",
+      "capacity": "200 personnes",
+      "operating_hours": "07:30–19:00",
+      "amenities": ["Murs épais", "Silence", "Entrée libre"],
+      "contact": "+33 1 44 08 87 00",
+      "accessibility": "Rampe latérale"
+    },
+    {
+      "name": "Piscine Municipale Vallier (accès gratuit épisode caniculaire)",
+      "address": "2 Bd Françoise Duparc, 13004 Marseille",
+      "latitude": 43.2990,
+      "longitude": 5.3920,
+      "type": "piscine",
+      "capacity": "500 baigneurs",
+      "operating_hours": "12:00–20:00 (gratuit jusqu’à fin alerte)",
+      "amenities": ["Bassin intérieur", "Douches", "Vestiaires"],
+      "contact": "+33 4 91 49 50 39",
+      "accessibility": "Ascenseur fauteuil"
+    },
+    {
+      "name": "Musée des Beaux-Arts de Lyon (entrée offerte)",
+      "address": "20 Place des Terreaux, 69001 Lyon",
+      "latitude": 45.7672,
+      "longitude": 4.8335,
+      "type": "museum",
+      "capacity": "1 000 visiteurs",
+      "operating_hours": "10:00–18:00 (gratuit du 02/07 au 04/07)",
+      "amenities": ["Climatisation", "Espace détente", "Fontaine intérieure"],
+      "contact": "+33 4 72 10 17 40",
+      "accessibility": "Ascenseurs, fauteuils prêtés"
+    },
+    {
+      "name": "Brumisateur – Place de la Victoire",
+      "address": "Place de la Victoire, 33000 Bordeaux",
+      "latitude": 44.8333,
+      "longitude": -0.5736,
+      "type": "brumisateur",
+      "capacity": "Zone ouverte",
+      "operating_hours": "10:00–21:00",
+      "amenities": ["Brume fraîche", "Fontaine à eau adjacente"],
+      "contact": "mairie-bordeaux.fr",
+      "accessibility": "Espace public, sol plat"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Hôpital Saint-Antoine (AP-HP)",
+      "address": "184 Rue du Faubourg Saint-Antoine, 75012 Paris",
+      "latitude": 48.8510,
+      "longitude": 2.3771,
+      "service_level": "Surge plan canicule activé",
+      "contact": "+33 1 49 28 20 00",
+      "availability": "Urgences 24/7 (climatisées)",
+      "notes": "Unité spéciale immersion glace pour coups de chaleur"
+    },
+    {
+      "name": "CHRU de Nancy – Urgences",
+      "address": "29 Av. du Maréchal de Lattre de Tassigny, 54000 Nancy",
+      "latitude": 48.6770,
+      "longitude": 6.1970,
+      "service_level": "Plan B canicule",
+      "contact": "+33 3 83 15 37 37",
+      "availability": "Urgences adultes & pédiatriques 24/7",
+      "notes": "Capacité +7 % depuis le 29/06"
+    },
+    {
+      "name": "CHU Pasteur 2 (Nice)",
+      "address": "30 Voie Roma, 06000 Nice",
+      "latitude": 43.7203,
+      "longitude": 7.2758,
+      "service_level": "Renfort médical +10 %",
+      "contact": "+33 4 92 03 03 92",
+      "availability": "Urgences 24/7",
+      "notes": "Trois médecins supplémentaires, soins réhydratation rapide"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Plateforme Info Canicule – Ministère de la Santé",
+      "service_type": "information",
+      "contact": "0800 06 66 66",
+      "description": "Conseils prévention chaleur, orientation vers médecins de garde",
+      "available": "08:00-19:00"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.tf1info.fr/meteo/qu-est-ce-que-le-numero-vert-canicule-reactive-ce-samedi-face-aux-fortes-chaleurs-2379680.html",
+      "title": "Numéro vert canicule réactivé",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.info.gouv.fr/actualite/canicule-le-numero-vert-est-active",
+      "title": "Canicule : le numéro vert est activé",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.europ-assistance.fr/fr/conseils/les-numeros-d-urgence-l-etranger",
+      "title": "Les numéros d'urgence en France",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.tarpin-bien.com/lieu/piscine-vallier/",
+      "title": "Piscine Vallier – horaires spéciaux canicule",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.leprogres.fr/economie/2025/07/02/trois-musees-ou-se-refugier-de-la-canicule-gratuitement-a-partir-de-mercredi",
+      "title": "Musées gratuits à Lyon durant la canicule",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://fr.aleteia.org/2025/06/18/canicule-pour-la-mairie-de-paris-les-eglises-sont-des-refuges/",
+      "title": "Églises parisiennes comme refuges frais",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.lebonbon.fr/bordeaux/news/canicule-bordeaux-14-brumisateurs-rafraichir-ville/",
+      "title": "Brumisateurs installés à Bordeaux",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.radiofrance.fr/franceinfo/podcasts/les-documents-franceinfo/des-patients-precaires-ou-sans-domicile-les-hopitaux-parisiens-accueillent-les-premieres-victimes-de-la-canicule-1447836",
+      "title": "Hôpital Saint-Antoine – premiers cas canicule",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.estrepublicain.fr/environnement/2025/07/01/canicule-comment-les-urgences-de-nancy-gerent-la-surchauffe",
+      "title": "Urgences de Nancy et surchauffe",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.tf1info.fr/societe/videos/video-reportage-c-est-tres-complique-avec-la-canicule-les-soignants-des-urgences-de-nice-en-premiere-ligne-2380090.html",
+      "title": "Soignants en première ligne à Nice",
+      "accessed": "2025-07-02"
+    }
+  ]
+}

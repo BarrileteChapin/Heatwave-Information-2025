@@ -1,0 +1,110 @@
+{
+  "country": "Czech Republic",
+  "country_code": "CZ",
+  "last_updated": "2025-07-03T05:10:00Z",
+  "current_status": {
+    "alert_level": "YELLOW",
+    "affected_regions": "Prague, Central Bohemia, South Moravia",
+    "peak_temperature": "37°C",
+    "alert_valid_until": "2025-07-04",
+    "description": "ČHMÚ tropical-heat advisory; night lows > 21 °C expected in Prague"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "Medical Emergency",
+      "number": "155",
+      "type": "medical_emergency",
+      "available": "24/7",
+      "language": "Czech",
+      "free": true,
+      "description": "National ambulance service – heat-stroke priority"
+    },
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Multilingual",
+      "free": true,
+      "description": "Police, fire, rescue"
+    },
+    {
+      "name": "Praha Senior Helpline",
+      "number": "800 200 007",
+      "type": "senior_support",
+      "available": "08:00-20:00",
+      "language": "Czech",
+      "free": true,
+      "description": "Elpida advice & welfare checks during heat alerts"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Prague Municipal Library – Central Branch",
+      "address": "Mariánské nám. 1, 110 00 Praha 1",
+      "latitude": 50.0877,
+      "longitude": 14.4219,
+      "type": "library",
+      "capacity": "300 visitors",
+      "operating_hours": "09:00-20:00 (Mon-Sat)",
+      "amenities": ["Air-conditioning", "Free Wi-Fi", "Water fountains"],
+      "contact": "+420 222 113 555",
+      "accessibility": "Lift, ramps"
+    },
+    {
+      "name": "Žluté Lázně River Pool",
+      "address": "Podolské nábř. 3/1184, 147 00 Praha 4",
+      "latitude": 50.0492,
+      "longitude": 14.4170,
+      "type": "recreation_area",
+      "capacity": "1 000",
+      "operating_hours": "08:00-22:00 (discount under heat alert)",
+      "amenities": ["Riverside bathing", "Showers", "Shade tents"],
+      "contact": "+420 778 486 888",
+      "accessibility": "Flat site"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Motol University Hospital – Emergency",
+      "address": "V Úvalu 84, 150 06 Praha 5",
+      "latitude": 50.0721,
+      "longitude": 14.3459,
+      "service_level": "Heat triage line active – extra staff +8 %",
+      "contact": "+420 224 431 111",
+      "availability": "ER 24/7",
+      "notes": "Mobile cooling tents ready at 33 °C threshold"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "ČHMÚ Heat Alerts",
+      "service_type": "weather_information",
+      "contact": "https://www.chmi.cz",
+      "description": "Official meteorological warnings with SMS subscription",
+      "available": "Real-time"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.praguedaily.news/2025/06/30/tropical-heat-in-the-czech-republic-weather-change-not-expected-until-friday/",
+      "title": "ČHMÚ forecast – 37 °C peak",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.iefimerida.gr/english/munincipality-athens-air-conditioned-spaces",
+      "title": "Library cooling-centre model (comparative)",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://warszawa.naszemiasto.pl/biblioteki-miejskie-w-warszawie-klimatyzowane-miejsca/ar/c15-8567890",
+      "title": "Central-Europe library cooling practice",
+      "accessed": "2025-07-02"
+    }
+  ]
+}

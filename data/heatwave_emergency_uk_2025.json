@@ -1,0 +1,158 @@
+{
+  "country": "United Kingdom", 
+  "country_code": "GB",
+  "last_updated": "2025-07-03T06:15:00Z",
+  "current_status": {
+    "alert_level": "ORANGE",
+    "affected_regions": "England (South East, London, East Midlands, South West), Wales",
+    "peak_temperature": "35°C",
+    "alert_valid_until": "2025-07-04",
+    "description": "UKHSA amber heat-health alert active; hottest day of 2025 recorded with 34.7°C at St James's Park London"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "Emergency Services",
+      "number": "999",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "English (multiple languages available)",
+      "free": true,
+      "description": "Police, fire, ambulance, coastguard with heat emergency protocols"
+    },
+    {
+      "name": "European Emergency Number", 
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Multilingual",
+      "free": true,
+      "description": "Alternative emergency number connecting to 999 services"
+    },
+    {
+      "name": "NHS 111",
+      "number": "111", 
+      "type": "medical_advice",
+      "available": "24/7",
+      "language": "English",
+      "free": true,
+      "description": "Non-emergency medical advice and heat health guidance"
+    },
+    {
+      "name": "Police Non-Emergency",
+      "number": "101",
+      "type": "police_non_emergency", 
+      "available": "24/7",
+      "language": "English",
+      "free": false,
+      "description": "Non-urgent police matters and crime reporting"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "British Library - St Pancras",
+      "address": "96 Euston Road, London NW1 2DB",
+      "latitude": 51.5297,
+      "longitude": -0.1276,
+      "type": "library",
+      "capacity": "1200+ visitors", 
+      "operating_hours": "09:30-20:00 (Mon-Thu), 09:30-18:00 (Fri-Sat)",
+      "amenities": ["Climate controlled", "Free WiFi", "Café", "Reading rooms"],
+      "contact": "+44 20 7412 7332",
+      "accessibility": "Fully accessible, lifts available"
+    },
+    {
+      "name": "Tate Modern", 
+      "address": "Bankside, London SE1 9TG",
+      "latitude": 51.5076,
+      "longitude": -0.0994,
+      "type": "museum",
+      "capacity": "800 visitors",
+      "operating_hours": "10:00-18:00 daily",
+      "amenities": ["Air conditioning", "Café", "River views", "Rest areas"],
+      "contact": "+44 20 7887 8888",
+      "accessibility": "Wheelchair accessible"
+    },
+    {
+      "name": "Birmingham Central Library",
+      "address": "Centenary Square, Birmingham B1 2ND", 
+      "latitude": 52.4781,
+      "longitude": -1.9096,
+      "type": "library",
+      "capacity": "600 visitors",
+      "operating_hours": "09:00-20:00 (Mon-Fri), 09:00-17:00 (Sat)",
+      "amenities": ["Air conditioning", "Study spaces", "Café", "Children's area"],
+      "contact": "+44 121 242 4242",
+      "accessibility": "Fully accessible"
+    },
+    {
+      "name": "Manchester Central Library",
+      "address": "St Peter's Square, Manchester M2 5PD",
+      "latitude": 53.4776,
+      "longitude": -2.2443,
+      "type": "library",
+      "capacity": "500 visitors",
+      "operating_hours": "09:00-20:00 (Mon-Thu), 09:00-17:00 (Fri-Sat)", 
+      "amenities": ["Climate controlled", "Reading rooms", "Café", "WiFi"],
+      "contact": "+44 161 234 1900",
+      "accessibility": "Lift access, wheelchair friendly"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "St Thomas' Hospital London",
+      "address": "Westminster Bridge Road, London SE1 7EH",
+      "latitude": 51.4989,
+      "longitude": -0.1180,
+      "service_level": "UKHSA heat-health protocol Level 3 - enhanced monitoring",
+      "contact": "+44 20 7188 7188",
+      "availability": "A&E 24/7",
+      "notes": "Additional cooling areas and hydration stations operational"
+    },
+    {
+      "name": "Birmingham Heartlands Hospital",
+      "address": "Bordesley Green East, Birmingham B9 5SS", 
+      "latitude": 52.4751,
+      "longitude": -1.8314,
+      "service_level": "Heat emergency preparedness active",
+      "contact": "+44 121 424 2000",
+      "availability": "Emergency Department 24/7", 
+      "notes": "Extra capacity for heat-related admissions"
+    },
+    {
+      "name": "Manchester Royal Infirmary",
+      "address": "Oxford Road, Manchester M13 9WL",
+      "latitude": 53.4603,
+      "longitude": -2.2306,
+      "service_level": "NHS heat wave response plan activated",
+      "contact": "+44 161 276 1234", 
+      "availability": "Emergency services 24/7",
+      "notes": "Mobile cooling units deployed for patient comfort"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "UK Health Security Agency Heat-Health Alerts",
+      "service_type": "health_coordination",
+      "contact": "https://www.gov.uk/government/collections/heatwave-plan-for-england",
+      "description": "National heat-health warning system and public health guidance",
+      "available": "May-September heat season"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c79qqx1r5yyo",
+      "title": "UK sees hottest day of 2025 as heatwave peaks",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.gov.uk/government/news/first-yellow-heat-health-alert-of-2025-issued-for-4-regions",
+      "title": "UKHSA Heat-Health Alerts 2025",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

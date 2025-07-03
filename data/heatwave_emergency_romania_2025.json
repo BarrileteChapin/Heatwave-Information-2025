@@ -1,0 +1,156 @@
+{
+  "country": "Romania",
+  "country_code": "RO",
+  "last_updated": "2025-07-03T06:45:00Z", 
+  "current_status": {
+    "alert_level": "RED",
+    "affected_regions": "Bucharest, Muntenia, Oltenia, Moldova, Banat regions",
+    "peak_temperature": "41°C",
+    "alert_valid_until": "2025-07-05",
+    "description": "ANM Red Code alert for extreme heat across three-quarters of counties; temperature-humidity index exceeding critical threshold of 80 units"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency", 
+      "available": "24/7",
+      "language": "Romanian/English/French",
+      "free": true,
+      "description": "Single emergency number for police, ambulance, fire services with heat protocols"
+    },
+    {
+      "name": "Emergency SMS for Disabled",
+      "number": "113", 
+      "type": "sms_emergency",
+      "available": "24/7",
+      "language": "Romanian",
+      "free": true,
+      "description": "SMS emergency service for people with disabilities"
+    },
+    {
+      "name": "Bucharest Police", 
+      "number": "021 208 25 25",
+      "type": "police_emergency",
+      "available": "24/7",
+      "language": "Romanian",
+      "free": true,
+      "description": "Bucharest Metropolitan Police for local emergencies"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "National Library of Romania",
+      "address": "Bulevardul Unirii 22, București",
+      "latitude": 44.4264,
+      "longitude": 26.1031,
+      "type": "library",
+      "capacity": "800 visitors",
+      "operating_hours": "09:00-20:00 (Mon-Fri), 09:00-14:00 (Sat)",
+      "amenities": ["Air conditioning", "Reading halls", "Free WiFi", "Water fountains"],
+      "contact": "+40 21 314 2434",
+      "accessibility": "Wheelchair accessible with lift"
+    },
+    {
+      "name": "Mall Băneasa Shopping City",
+      "address": "Șoseaua București-Ploiești 42D, București",
+      "latitude": 44.5083,
+      "longitude": 26.0806,
+      "type": "shopping_center", 
+      "capacity": "5000+ visitors",
+      "operating_hours": "10:00-22:00 daily",
+      "amenities": ["Central AC", "Food court", "Cinema", "Rest areas"],
+      "contact": "+40 21 224 9999",
+      "accessibility": "Fully accessible"
+    },
+    {
+      "name": "Romanian Athenaeum",
+      "address": "Strada Benjamin Franklin 1-3, București",
+      "latitude": 44.4411,
+      "longitude": 26.0953,
+      "type": "cultural_center",
+      "capacity": "400 visitors", 
+      "operating_hours": "10:00-18:00 (Tue-Sun)",
+      "amenities": ["Historic air-conditioned halls", "Guided tours", "Café"],
+      "contact": "+40 21 315 6875",
+      "accessibility": "Limited accessibility"
+    },
+    {
+      "name": "Cluj-Napoca Central University Library",
+      "address": "Strada Clinicilor 2, Cluj-Napoca",
+      "latitude": 46.7712,
+      "longitude": 23.6236,
+      "type": "library",
+      "capacity": "600 visitors",
+      "operating_hours": "08:00-20:00 (Mon-Fri)", 
+      "amenities": ["Climate controlled", "Study areas", "WiFi", "Café"],
+      "contact": "+40 264 405 300",
+      "accessibility": "Accessible entrance and lift"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Emergency University Hospital Bucharest",
+      "address": "Calea Floreasca 8, București",
+      "latitude": 44.4721,
+      "longitude": 26.1018,
+      "service_level": "Red Code heat protocol - emergency cooling capacity increased", 
+      "contact": "+40 21 230 0106",
+      "availability": "Emergency Department 24/7",
+      "notes": "Mobile cooling units and heat-stroke treatment protocol since July 1"
+    },
+    {
+      "name": "Fundeni Clinical Institute",
+      "address": "Șoseaua Fundeni 258, București",
+      "latitude": 44.4584,
+      "longitude": 26.1654,
+      "service_level": "Enhanced heat emergency preparedness",
+      "contact": "+40 21 318 8110", 
+      "availability": "Multiple emergency departments 24/7",
+      "notes": "Specialized cooling treatment rooms operational"
+    },
+    {
+      "name": "Cluj County Emergency Hospital",
+      "address": "Strada Clinicilor 3-5, Cluj-Napoca",
+      "latitude": 46.7712,
+      "longitude": 23.6181,
+      "service_level": "Regional heat emergency coordination center",
+      "contact": "+40 264 597 852",
+      "availability": "Emergency services 24/7",
+      "notes": "Additional medical staff during heat wave period"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Romanian National Meteorological Administration", 
+      "service_type": "weather_alerts",
+      "contact": "https://www.anm.ro",
+      "description": "Official weather warnings and heat advisories with color-coded alerts",
+      "available": "Continuous monitoring and updates"
+    },
+    {
+      "name": "Ministry of Health Heat Response",
+      "service_type": "health_coordination",
+      "contact": "https://www.ms.ro",
+      "description": "National health emergency coordination during extreme heat events", 
+      "available": "Activated during Red Code alerts"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.romania-insider.com/orange-heat-alert-romania-june-2025",
+      "title": "Orange Code warning issued for Bucharest as heatwave hits Romania",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.112emergency.eu/romania",
+      "title": "112 Romania Emergency Services",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

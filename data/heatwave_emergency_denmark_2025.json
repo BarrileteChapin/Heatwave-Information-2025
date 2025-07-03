@@ -1,0 +1,103 @@
+{
+  "country": "Denmark",
+  "country_code": "DK",
+  "last_updated": "2025-07-03T07:00:00Z",
+  "current_status": {
+    "alert_level": "YELLOW",
+    "affected_regions": "Copenhagen region, Zealand", 
+    "peak_temperature": "30°C",
+    "alert_valid_until": "2025-07-04",
+    "description": "DMI elevated temperature advisory for eastern Denmark; public buildings extending cooling access"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Danish/English/German", 
+      "free": true,
+      "description": "Police, fire, ambulance services with summer heat protocols"
+    },
+    {
+      "name": "Police Non-Emergency",
+      "number": "114",
+      "type": "police_non_emergency",
+      "available": "24/7",
+      "language": "Danish",
+      "free": false,
+      "description": "Non-urgent police matters and local assistance"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Copenhagen Central Library (Hovedbiblioteket)",
+      "address": "Krystalgade 15, 1172 Copenhagen",
+      "latitude": 55.6804,
+      "longitude": 12.5700,
+      "type": "library",
+      "capacity": "500 visitors",
+      "operating_hours": "10:00-19:00 (Mon-Fri), 10:00-14:00 (Sat)", 
+      "amenities": ["Air conditioning", "Reading areas", "Free WiFi", "Café"],
+      "contact": "+45 33 73 60 60",
+      "accessibility": "Fully accessible"
+    },
+    {
+      "name": "National Museum of Denmark",
+      "address": "Ny Vestergade 10, 1471 Copenhagen",
+      "latitude": 55.6747,
+      "longitude": 12.5736,
+      "type": "museum",
+      "capacity": "400 visitors",
+      "operating_hours": "10:00-17:00 (Tue-Sun)", 
+      "amenities": ["Climate controlled", "Café", "Rest areas", "Children's museum"],
+      "contact": "+45 33 13 44 11",
+      "accessibility": "Wheelchair accessible"
+    },
+    {
+      "name": "Fisketorvet Shopping Center",
+      "address": "Kalvebod Brygge 59, 1560 Copenhagen",
+      "latitude": 55.6659,
+      "longitude": 12.5609,
+      "type": "shopping_center",
+      "capacity": "2000+ visitors", 
+      "operating_hours": "10:00-20:00 daily",
+      "amenities": ["Central AC", "Restaurants", "Seating areas", "Harbor views"],
+      "contact": "+45 33 36 64 00",
+      "accessibility": "Fully accessible"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Rigshospitalet - Copenhagen University Hospital",
+      "address": "Blegdamsvej 9, 2100 Copenhagen",
+      "latitude": 55.6969,
+      "longitude": 12.5706,
+      "service_level": "Summer preparedness plan - enhanced cooling protocols",
+      "contact": "+45 35 45 35 45", 
+      "availability": "Emergency Department 24/7",
+      "notes": "Additional hydration and cooling measures for elderly patients"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Danish Meteorological Institute (DMI)",
+      "service_type": "weather_information",
+      "contact": "https://www.dmi.dk",
+      "description": "Official weather warnings and summer heat advisories", 
+      "available": "Continuous updates during warm weather"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2024_European_heatwaves",
+      "title": "Denmark Heatwave Records and Response",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

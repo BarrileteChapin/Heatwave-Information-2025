@@ -1,0 +1,136 @@
+{
+  "country": "Ireland",
+  "country_code": "IE",
+  "last_updated": "2025-07-03T06:00:00Z",
+  "current_status": {
+    "alert_level": "YELLOW",
+    "affected_regions": "Dublin, Cork, eastern counties",
+    "peak_temperature": "28°C",
+    "alert_valid_until": "2025-07-04",
+    "description": "Met Éireann yellow temperature warning for eastern regions; HSE heat health advice activated for vulnerable populations"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "English/Irish",
+      "free": true,
+      "description": "Fire brigade, ambulance, Gardaí (police) with heat emergency protocols"
+    },
+    {
+      "name": "Emergency Services",
+      "number": "999",
+      "type": "general_emergency", 
+      "available": "24/7",
+      "language": "English/Irish",
+      "free": true,
+      "description": "Traditional Irish emergency number for all services"
+    },
+    {
+      "name": "HSE Live",
+      "number": "1800 700 700",
+      "type": "health_information",
+      "available": "Monday-Friday 8:00-20:00, Saturday 9:00-17:00",
+      "language": "English/Irish",
+      "free": true,
+      "description": "Health Service Executive general health queries and advice"
+    },
+    {
+      "name": "Gardaí Non-Emergency",
+      "number": "01 666 0000",
+      "type": "police_non_emergency",
+      "available": "24/7",
+      "language": "English/Irish", 
+      "free": true,
+      "description": "Dublin Metropolitan Region Garda Headquarters"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Dublin City Library & Archive",
+      "address": "138-144 Pearse Street, Dublin 2",
+      "latitude": 53.3441,
+      "longitude": -6.2450,
+      "type": "library",
+      "capacity": "400 visitors",
+      "operating_hours": "09:30-20:00 (Mon-Thu), 09:30-17:00 (Fri-Sat)",
+      "amenities": ["Air conditioning", "Free WiFi", "Water fountains", "Reading areas"],
+      "contact": "+353 1 674 4999",
+      "accessibility": "Fully accessible, lift available"
+    },
+    {
+      "name": "National Museum of Ireland - Archaeology",
+      "address": "Kildare Street, Dublin 2", 
+      "latitude": 53.3406,
+      "longitude": -6.2549,
+      "type": "museum",
+      "capacity": "300 visitors",
+      "operating_hours": "10:00-17:00 (Tue-Sat), 14:00-17:00 (Sun)",
+      "amenities": ["Climate controlled", "Café", "Rest areas", "Water available"],
+      "contact": "+353 1 677 7444",
+      "accessibility": "Wheelchair accessible"
+    },
+    {
+      "name": "Cork City Library",
+      "address": "Grand Parade, Cork",
+      "latitude": 51.8969,
+      "longitude": -8.4863,
+      "type": "library", 
+      "capacity": "250 visitors",
+      "operating_hours": "10:00-20:00 (Mon-Thu), 10:00-17:00 (Fri-Sat)",
+      "amenities": ["Air conditioning", "Study spaces", "Free WiFi", "Café"],
+      "contact": "+353 21 492 4900",
+      "accessibility": "Fully accessible"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "St. James's Hospital Dublin",
+      "address": "James's Street, Dublin 8",
+      "latitude": 53.3422,
+      "longitude": -6.2952,
+      "service_level": "Heat illness protocol active - extra hydration stations",
+      "contact": "+353 1 410 3000",
+      "availability": "Emergency Department 24/7",
+      "notes": "Additional cooling measures for vulnerable patients since July 1"
+    },
+    {
+      "name": "Cork University Hospital",
+      "address": "Wilton, Cork",
+      "latitude": 51.8771,
+      "longitude": -8.5430,
+      "service_level": "Summer heat preparedness plan activated", 
+      "contact": "+353 21 492 6100",
+      "availability": "Emergency Department 24/7",
+      "notes": "Enhanced monitoring for heat-related admissions"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "HSE Health Protection Surveillance Centre",
+      "service_type": "health_monitoring",
+      "contact": "https://www.hpsc.ie",
+      "description": "Heat health surveillance and public health advice during warm weather",
+      "available": "Continuous monitoring during heat episodes"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www2.hse.ie/contact/",
+      "title": "HSE Emergency Contact Information",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://gov.ie/en/department-of-defence/publications/heat-and-heat-waves/",
+      "title": "Government of Ireland Heat Wave Response",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

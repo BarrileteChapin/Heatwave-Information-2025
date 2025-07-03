@@ -1,0 +1,143 @@
+{
+  "country": "Bosnia and Herzegovina",
+  "country_code": "BA",
+  "last_updated": "2025-07-03T08:15:00Z",
+  "current_status": {
+    "alert_level": "RED",
+    "affected_regions": "Nationwide, particularly lowland areas and urban centers",
+    "peak_temperature": "40.5°C",
+    "alert_valid_until": "2025-07-05", 
+    "description": "Driest June in 135 years with record temperatures; meteorologists warn of 4-5°C above average for July-August"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Bosnian/Croatian/Serbian/English",
+      "free": true,
+      "description": "Unified emergency services for police, medical, and fire emergencies"
+    },
+    {
+      "name": "Police Emergency",
+      "number": "122", 
+      "type": "police_emergency",
+      "available": "24/7",
+      "language": "Bosnian/Croatian/Serbian",
+      "free": true,
+      "description": "Direct police emergency services"
+    },
+    {
+      "name": "Medical Emergency",
+      "number": "124",
+      "type": "medical_emergency",
+      "available": "24/7",
+      "language": "Bosnian/Croatian/Serbian",
+      "free": true,
+      "description": "Emergency medical services and ambulance"
+    },
+    {
+      "name": "Fire Emergency",
+      "number": "123",
+      "type": "fire_emergency", 
+      "available": "24/7",
+      "language": "Bosnian/Croatian/Serbian",
+      "free": true,
+      "description": "Fire brigade and rescue services with wildfire protocols"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "National and University Library of Bosnia and Herzegovina",
+      "address": "Zmaja od Bosne 8B, 71000 Sarajevo",
+      "latitude": 43.8564,
+      "longitude": 18.4131,
+      "type": "library",
+      "capacity": "400 visitors",
+      "operating_hours": "08:00-20:00 (Mon-Fri), 09:00-15:00 (Sat)", 
+      "amenities": ["Air conditioning", "Study halls", "Free WiFi", "Research facilities"],
+      "contact": "+387 33 275 300",
+      "accessibility": "Wheelchair accessible with lift"
+    },
+    {
+      "name": "BBI Center Sarajevo",
+      "address": "Trg djece Sarajeva 1, 71000 Sarajevo",
+      "latitude": 43.8476,
+      "longitude": 18.3564,
+      "type": "shopping_center",
+      "capacity": "3000+ visitors",
+      "operating_hours": "09:00-23:00 daily",
+      "amenities": ["Central air conditioning", "Food court", "Cinema", "Rest areas"],
+      "contact": "+387 33 580 500", 
+      "accessibility": "Fully accessible"
+    },
+    {
+      "name": "Banja Luka Cultural Center",
+      "address": "Veselina Masleše 2, 78000 Banja Luka",
+      "latitude": 44.7722,
+      "longitude": 17.1910,
+      "type": "cultural_center",
+      "capacity": "300 visitors",
+      "operating_hours": "09:00-21:00 during heat emergency",
+      "amenities": ["Climate controlled halls", "Café", "Exhibition spaces"],
+      "contact": "+387 51 215 485",
+      "accessibility": "Ground floor accessible"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "University Clinical Center Sarajevo", 
+      "address": "Bolnička 25, 71000 Sarajevo",
+      "latitude": 43.8418,
+      "longitude": 18.3945,
+      "service_level": "Mass casualty preparedness - heat emergency protocols active",
+      "contact": "+387 33 298 000",
+      "availability": "Emergency Department 24/7",
+      "notes": "Enhanced cooling facilities and heat-stroke treatment protocols since June"
+    },
+    {
+      "name": "University Clinical Center of Republika Srpska",
+      "address": "12 beba bb, 78000 Banja Luka",
+      "latitude": 44.7511,
+      "longitude": 17.2142,
+      "service_level": "Regional heat health coordination center", 
+      "contact": "+387 51 234 100",
+      "availability": "Emergency services 24/7",
+      "notes": "Additional medical personnel and cooling equipment during extreme heat"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Federal Hydrometeorological Institute",
+      "service_type": "weather_information",
+      "contact": "https://www.fhmzbih.gov.ba",
+      "description": "Official weather warnings and heat advisories for Federation of BiH",
+      "available": "Continuous monitoring during heat waves"
+    },
+    {
+      "name": "Ministry of Health of Bosnia and Herzegovina",
+      "service_type": "health_coordination", 
+      "contact": "http://www.mz.gov.ba",
+      "description": "National health emergency coordination and hospital preparedness",
+      "available": "Enhanced response during extreme weather events"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://trt.global/world/article/542e4c4fd367",
+      "title": "Heatwave triggers health alerts across Balkans - TRT Global",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.who.int/europe/news-room/events/item/2025/05/27/default-calendar/hospital-preparedness-for-mass-casualty-incidents-in-the-federation-of-bosnia-and-herzegovina",
+      "title": "WHO - Hospital Preparedness for Mass Casualty Incidents in Bosnia and Herzegovina",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

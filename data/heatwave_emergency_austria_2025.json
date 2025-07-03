@@ -1,0 +1,115 @@
+{
+  "country": "Austria",
+  "country_code": "AT",
+  "last_updated": "2025-07-03T05:00:00Z",
+  "current_status": {
+    "alert_level": "YELLOW",
+    "affected_regions": "Vienna, Lower Austria, Burgenland",
+    "peak_temperature": "37.9°C",
+    "alert_valid_until": "2025-07-04",
+    "description": "GeoSphere Austria keeps level-2 warnings for the east; 22 official Cool-Zones open across Vienna."
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "National Heat Hotline",
+      "number": "0800 880 800",
+      "type": "heatwave_hotline",
+      "available": "08:00-20:00 daily (May–Sept)",
+      "language": "German",
+      "free": true,
+      "description": "Federal hotline operated by AGES offering medical and behavioural advice"
+    },
+    {
+      "name": "Health Hotline 1450",
+      "number": "1450",
+      "type": "medical_advice",
+      "available": "24/7",
+      "language": "German/English",
+      "free": true,
+      "description": "Nurse-led triage for heat-related symptoms"
+    },
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Multilingual",
+      "free": true,
+      "description": "Fire, police, ambulance"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Stadt Wien Cool-Zone – Greiseneckergasse",
+      "address": "Greiseneckergasse 5, 1200 Vienna",
+      "latitude": 48.2308,
+      "longitude": 16.3809,
+      "type": "cool_zone",
+      "capacity": "60 seats",
+      "operating_hours": "10:00-19:00 (heat days only)",
+      "amenities": ["Air-conditioning", "Cold drinks", "Seating"],
+      "contact": "+43 1 4000 8040",
+      "accessibility": "Wheel-chair accessible"
+    },
+    {
+      "name": "Caritas Climate Oasis – Pfarre St. Josef",
+      "address": "Medwedweg 3, 1110 Vienna",
+      "latitude": 48.1739,
+      "longitude": 16.4340,
+      "type": "climate_oasis",
+      "capacity": "80 visitors",
+      "operating_hours": "09:00-18:00",
+      "amenities": ["Shade court-yard", "Water distribution", "Volunteer nurses"],
+      "contact": "+43 1 878 12",
+      "accessibility": "Ramp entrance"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "AKH Vienna – Emergency Department",
+      "address": "Währinger Gürtel 18-20, 1090 Vienna",
+      "latitude": 48.2216,
+      "longitude": 16.3423,
+      "service_level": "Heat Plan Stage 2 – 12 cooled beds",
+      "contact": "+43 1 40400 0",
+      "availability": "ER 24/7",
+      "notes": "Cold-water immersion unit installed 28 Jun 2025"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Vienna Heat Wave Warning Service",
+      "service_type": "weather_information",
+      "contact": "https://www.wien.gv.at/umwelt/coole-zonen",
+      "description": "SMS & app alerts plus interactive cool-zone map",
+      "available": "Activated at level-2"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.vienna.at/the-heat-hotline-is-back/9508526",
+      "title": "Nationwide heat hotline resumes",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.vienna.at/more-cool-zones-for-vienna/9510698",
+      "title": "Vienna expands Cool-Zones to 22 locations",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://austrianpress.com/2025/06/26/first-major-heatwave-in-austria/",
+      "title": "Caritas opens 23 climate oases",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://pro.earth/en/2024/06/19/hitze-als-gesundheitsrisiko-nationaler-hitzeschutzplan-ueberarbeitet/",
+      "title": "Revised Austrian Heat Protection Plan",
+      "accessed": "2025-07-02"
+    }
+  ]
+}

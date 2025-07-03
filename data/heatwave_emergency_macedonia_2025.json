@@ -1,0 +1,143 @@
+{
+  "country": "North Macedonia",
+  "country_code": "MK",
+  "last_updated": "2025-07-03T08:45:00Z",
+  "current_status": {
+    "alert_level": "RED",
+    "affected_regions": "Nationwide, particularly Skopje and eastern regions", 
+    "peak_temperature": "41.7°C",
+    "alert_valid_until": "2025-07-05",
+    "description": "New national June temperature record at 41.7°C; extreme heat persisting with elevated health risks"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Macedonian/Albanian/English",
+      "free": true,
+      "description": "Central emergency services coordinating all emergency responses"
+    },
+    {
+      "name": "Police Emergency",
+      "number": "192", 
+      "type": "police_emergency",
+      "available": "24/7",
+      "language": "Macedonian/Albanian",
+      "free": true,
+      "description": "State police emergency services"
+    },
+    {
+      "name": "Medical Emergency",
+      "number": "194",
+      "type": "medical_emergency",
+      "available": "24/7",
+      "language": "Macedonian/Albanian",
+      "free": true,
+      "description": "Emergency medical services with heat-stroke protocols"
+    },
+    {
+      "name": "Fire Emergency",
+      "number": "193",
+      "type": "fire_emergency", 
+      "available": "24/7",
+      "language": "Macedonian/Albanian",
+      "free": true,
+      "description": "Fire and rescue services with wildfire response capabilities"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "National and University Library St. Kliment Ohridski",
+      "address": "Bul. Goce Delčev 6, 1000 Skopje",
+      "latitude": 41.9981,
+      "longitude": 21.4254,
+      "type": "library",
+      "capacity": "500 visitors",
+      "operating_hours": "08:00-20:00 (Mon-Fri), 09:00-15:00 (Sat)",
+      "amenities": ["Air conditioning", "Study halls", "Free internet", "Reading rooms"], 
+      "contact": "+389 2 3115 177",
+      "accessibility": "Wheelchair accessible"
+    },
+    {
+      "name": "Skopje City Mall",
+      "address": "Bul. 8-mi Septemvri 1, 1000 Skopje",
+      "latitude": 41.9980,
+      "longitude": 21.4143,
+      "type": "shopping_center",
+      "capacity": "2000+ visitors",
+      "operating_hours": "10:00-22:00 daily",
+      "amenities": ["Central air conditioning", "Food court", "Cinema", "Children's areas"],
+      "contact": "+389 2 3075 500",
+      "accessibility": "Fully accessible"
+    },
+    {
+      "name": "Museum of Contemporary Art", 
+      "address": "Samoilova bb, 1000 Skopje",
+      "latitude": 42.0030,
+      "longitude": 21.4292,
+      "type": "museum",
+      "capacity": "200 visitors",
+      "operating_hours": "09:00-17:00 (Tue-Sat), 09:00-13:00 (Sun)",
+      "amenities": ["Climate controlled", "Café", "Gallery spaces"],
+      "contact": "+389 2 3117 734",
+      "accessibility": "Limited accessibility"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "University Clinic of Emergency Medicine",
+      "address": "Majka Tereza 17, 1000 Skopje",
+      "latitude": 41.9892,
+      "longitude": 21.4346,
+      "service_level": "National heat emergency center - enhanced cooling protocols", 
+      "contact": "+389 2 3147 147",
+      "availability": "Emergency services 24/7",
+      "notes": "Specialized heat-stroke treatment unit with rapid cooling capabilities"
+    },
+    {
+      "name": "General Hospital Ohrid",
+      "address": "Bulevar Turistička bb, 6000 Ohrid",
+      "latitude": 41.1171,
+      "longitude": 20.8016,
+      "service_level": "Regional heat health monitoring for tourist areas",
+      "contact": "+389 46 262 432",
+      "availability": "Emergency Department 24/7",
+      "notes": "Enhanced protocols for tourists around Lake Ohrid during heat waves"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Hydrometeorological Service of North Macedonia", 
+      "service_type": "weather_information",
+      "contact": "http://www.uhmr.gov.mk",
+      "description": "Official weather warnings and extreme temperature alerts",
+      "available": "24/7 monitoring during extreme weather"
+    },
+    {
+      "name": "Institute of Public Health",
+      "service_type": "health_coordination",
+      "contact": "http://www.iph.mk",
+      "description": "Public health emergency coordination and heat safety guidance",
+      "available": "Enhanced response during health emergencies"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://mkweather.com/east-central-europe-and-the-balkans-with-new-or-almost-new-national-june-records-north-macedonia-41-7c-serbia-40-7c-bosnia-and-herzegovina-40-5c-romania-40-0c-hungary/", 
+      "title": "North Macedonia records 41.7°C - new national June record",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://watchers.news/2024/07/16/intense-long-duration-heatwave-affecting-se-europe/",
+      "title": "Intense heatwave affecting Southeast Europe and North Macedonia",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

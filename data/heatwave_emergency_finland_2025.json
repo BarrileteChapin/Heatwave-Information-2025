@@ -1,0 +1,116 @@
+{
+  "country": "Finland",
+  "country_code": "FI",
+  "last_updated": "2025-07-03T07:45:00Z",
+  "current_status": {
+    "alert_level": "YELLOW",
+    "affected_regions": "Southern Finland, Helsinki region",
+    "peak_temperature": "29°C", 
+    "alert_valid_until": "2025-07-04",
+    "description": "FMI heat advisory for southern regions; record early heat warnings issued in May indicate ongoing warm pattern"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Finnish/Swedish/English",
+      "free": true,
+      "description": "Single emergency number for police, ambulance, fire, and social services"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Helsinki Central Library Oodi", 
+      "address": "Töölönlahdenkatu 4, 00100 Helsinki",
+      "latitude": 60.1733,
+      "longitude": 24.9373,
+      "type": "library",
+      "capacity": "2500+ visitors",
+      "operating_hours": "08:00-22:00 (Mon-Fri), 10:00-20:00 (weekends)",
+      "amenities": ["Advanced climate control", "Multiple floors", "Café", "Event spaces"],
+      "contact": "+358 9 310 85000",
+      "accessibility": "Fully accessible"
+    },
+    {
+      "name": "Temppeliaukio Church (Rock Church)",
+      "address": "Lutherinkatu 3, 00100 Helsinki",
+      "latitude": 60.1731,
+      "longitude": 24.9251, 
+      "type": "church",
+      "capacity": "750 visitors",
+      "operating_hours": "10:00-17:00 daily (summer)",
+      "amenities": ["Natural rock cooling", "Unique architecture", "Acoustic concerts"],
+      "contact": "+358 9 2340 5940",
+      "accessibility": "Limited accessibility due to rock construction"
+    },
+    {
+      "name": "Tampere Central Library Metso",
+      "address": "Pirkankatu 2, 33230 Tampere",
+      "latitude": 61.4981,
+      "longitude": 23.7608,
+      "type": "library",
+      "capacity": "600 visitors", 
+      "operating_hours": "10:00-20:00 (Mon-Fri), 10:00-16:00 (Sat)",
+      "amenities": ["Air conditioning", "Study areas", "Children's section"],
+      "contact": "+358 3 5656 4100",
+      "accessibility": "Fully accessible"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Helsinki University Hospital (HUS)",
+      "address": "Haartmaninkatu 4, 00290 Helsinki",
+      "latitude": 60.1895,
+      "longitude": 24.9520,
+      "service_level": "Summer heat monitoring protocols active",
+      "contact": "+358 9 4711", 
+      "availability": "Emergency services 24/7",
+      "notes": "Enhanced monitoring for heat-sensitive patients and elderly"
+    },
+    {
+      "name": "Tampere University Hospital (TAYS)",
+      "address": "Teiskontie 35, 33521 Tampere",
+      "latitude": 61.5045,
+      "longitude": 23.7417,
+      "service_level": "Central Finland heat health coordination",
+      "contact": "+358 3 311 611",
+      "availability": "Emergency Department 24/7",
+      "notes": "Regional coordination for heat-related health issues"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Finnish Meteorological Institute (FMI)",
+      "service_type": "weather_information", 
+      "contact": "https://www.fmi.fi",
+      "description": "Weather warnings and heat advisories with multilingual alerts",
+      "available": "24/7 monitoring and alerts"
+    },
+    {
+      "name": "Finnish Institute for Health and Welfare (THL)",
+      "service_type": "health_guidance",
+      "contact": "https://thl.fi",
+      "description": "Public health guidance during heat episodes",
+      "available": "Updated during heat warnings"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://phys.org/news/2024-05-exceptionally-early-finland.html",
+      "title": "Exceptionally early heat wave hits Finland", 
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.siunsote.fi/en/servicechannel/112-emergency-number-in-finland/",
+      "title": "112 Emergency number in Finland",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

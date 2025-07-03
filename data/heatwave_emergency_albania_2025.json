@@ -1,0 +1,143 @@
+{
+  "country": "Albania",
+  "country_code": "AL",
+  "last_updated": "2025-07-03T08:30:00Z", 
+  "current_status": {
+    "alert_level": "ORANGE",
+    "affected_regions": "Nationwide, particularly Tirana and coastal areas",
+    "peak_temperature": "39°C",
+    "alert_valid_until": "2025-07-05",
+    "description": "High fire danger with 8 blazes controlled in past 24 hours; temperatures approaching 40°C with elevated wildfire risk"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Albanian/English/Italian",
+      "free": true,
+      "description": "Unified emergency services for all emergencies including heat-related incidents"
+    },
+    {
+      "name": "Police Emergency", 
+      "number": "129",
+      "type": "police_emergency",
+      "available": "24/7",
+      "language": "Albanian",
+      "free": true,
+      "description": "State police emergency services"
+    },
+    {
+      "name": "Medical Emergency",
+      "number": "127",
+      "type": "medical_emergency",
+      "available": "24/7",
+      "language": "Albanian",
+      "free": true,
+      "description": "Emergency medical services and ambulance"
+    },
+    {
+      "name": "Fire Emergency",
+      "number": "128",
+      "type": "fire_emergency", 
+      "available": "24/7",
+      "language": "Albanian",
+      "free": true,
+      "description": "Fire services with enhanced wildfire response protocols"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "National Library of Albania",
+      "address": "Sheshi Nënë Tereza 5, 1001 Tirana",
+      "latitude": 41.3275,
+      "longitude": 19.8189,
+      "type": "library",
+      "capacity": "400 visitors",
+      "operating_hours": "08:00-20:00 (Mon-Fri), 09:00-15:00 (Sat)",
+      "amenities": ["Air conditioning", "Reading halls", "Free WiFi", "Research areas"], 
+      "contact": "+355 4 222 4778",
+      "accessibility": "Wheelchair accessible"
+    },
+    {
+      "name": "Tirana East Gate Shopping Mall",
+      "address": "Autostrada Tiranë-Durrës, km 8, 1051 Tirana",
+      "latitude": 41.3498,
+      "longitude": 19.8738,
+      "type": "shopping_center",
+      "capacity": "2500+ visitors",
+      "operating_hours": "10:00-22:00 daily",
+      "amenities": ["Central AC", "Food court", "Cinema", "Children's play area"],
+      "contact": "+355 4 404 7777",
+      "accessibility": "Fully accessible"
+    },
+    {
+      "name": "National Historical Museum", 
+      "address": "Sheshi Skënderbej 1, 1001 Tirana",
+      "latitude": 41.3281,
+      "longitude": 19.8186,
+      "type": "museum",
+      "capacity": "300 visitors",
+      "operating_hours": "09:00-17:00 (Tue-Sat), 09:00-14:00 (Sun)",
+      "amenities": ["Climate controlled", "Café", "Gift shop", "Rest areas"],
+      "contact": "+355 4 223 389",
+      "accessibility": "Limited accessibility"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "University Hospital Center Mother Teresa",
+      "address": "Rruga e Dibres 372, 1001 Tirana",
+      "latitude": 41.3317,
+      "longitude": 19.8422, 
+      "service_level": "National heat emergency protocol - enhanced emergency capacity",
+      "contact": "+355 4 237 4337",
+      "availability": "Emergency Department 24/7",
+      "notes": "Additional cooling measures and hydration protocols for heat-related admissions"
+    },
+    {
+      "name": "Regional Hospital of Durrës",
+      "address": "Lagjja 1, Rruga Epidamni, 2001 Durrës",
+      "latitude": 41.3145,
+      "longitude": 19.4463,
+      "service_level": "Coastal region heat health monitoring",
+      "contact": "+355 52 222 778",
+      "availability": "Emergency services 24/7", 
+      "notes": "Enhanced protocols for tourists and coastal populations during heat waves"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Albanian Meteorological Service",
+      "service_type": "weather_information",
+      "contact": "https://www.meteorologjia.gov.al",
+      "description": "Official weather warnings and fire danger alerts",
+      "available": "24/7 monitoring during high-risk periods"
+    },
+    {
+      "name": "Institute of Public Health",
+      "service_type": "health_guidance",
+      "contact": "https://www.ishp.gov.al", 
+      "description": "Public health advice and heat safety guidelines",
+      "available": "Enhanced monitoring during heat episodes"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://trt.global/world/article/542e4c4fd367",
+      "title": "Albania firefighters control 8 blazes as Balkans heat wave continues",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://balkaneu.com/balkans-brace-for-record-heatwave-health-alerts-and-wildfire-fears-mount/",
+      "title": "Balkans Brace for Record Heatwave",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

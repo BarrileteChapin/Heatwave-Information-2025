@@ -1,0 +1,190 @@
+{
+  "country": "Greece",
+  "country_code": "GR",
+  "last_updated": "2025-07-03T01:45:00Z",
+  "current_status": {
+    "alert_level": "RED",
+    "affected_regions": "Nationwide; highest risk in Attica, Thessaly, Central Macedonia",
+    "peak_temperature": "42°C",
+    "alert_valid_until": "2025-07-05",
+    "description": "Extreme heatwave; Acropolis closed 12:00–17:00, wildfire risk level 4/5, workplace outdoor ban 12:00–17:00"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "Athens Heat Support Hotline",
+      "number": "210 3638 049",
+      "type": "heatwave_hotline",
+      "available": "08:30–19:30 daily",
+      "language": "Greek",
+      "free": true,
+      "description": "Municipal medical advice and guidance during heat alerts"
+    },
+    {
+      "name": "Citizen Service Line",
+      "number": "1595",
+      "type": "municipal_hotline",
+      "available": "24/7",
+      "language": "Greek/English",
+      "free": true,
+      "description": "24-hour line for vulnerable residents in Athens seeking assistance"      
+    },
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Multiple",
+      "free": true,
+      "description": "Fire, police, ambulance with heatwave protocols"
+    },
+    {
+      "name": "EKAB Medical Emergency",
+      "number": "166",
+      "type": "medical_emergency",
+      "available": "24/7",
+      "language": "Greek",
+      "free": true,
+      "description": "National ambulance service – prioritised for heat-stroke cases"
+    },
+    {
+      "name": "Humanity Greece 24 h Support Line",
+      "number": "210 5256 379",
+      "type": "community_support",
+      "available": "24/7 (until end of alert)",
+      "language": "Greek",
+      "free": true,
+      "description": "Volunteer coordination line for homeless and vulnerable groups"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Athens Friendship Clubs Network",
+      "address": "7 air-conditioned venues city-wide (see description)",
+      "latitude": 37.9838,
+      "longitude": 23.7275,
+      "type": "community_center",
+      "capacity": "≈1 200 seats total",
+      "operating_hours": "08:00–20:00 (extended to 22:00 under RED alert)",
+      "amenities": ["Air-conditioning", "Water dispensers", "Seating", "Basic first aid"],
+      "contact": "210 3638 049",
+      "accessibility": "Most sites wheelchair accessible",
+      "description": "Locations: Agios Pavlos (Mamouri 22), Neos Kosmos (Heldreich 15), Votanikos (Kozanis 4), Kolokynthous (Aimonos 9), Agios Eleftherios (Acharnon 372), Kypseli (Skyrou & Kafkasou), Ampelokipi (Panormou & Vatheos)"
+    },
+    {
+      "name": "Acropolis Station Metro Hall",
+      "address": "Makrygianni & Dionysiou Areopagitou, 11742 Athens",
+      "latitude": 37.9680,
+      "longitude": 23.7286,
+      "type": "transport_hub",
+      "capacity": "500 people",
+      "operating_hours": "06:30–00:30",
+      "amenities": ["Climate-controlled concourse", "Water vending", "Seating"],
+      "contact": "STASY 14511",
+      "accessibility": "Elevators, ramps"
+    },
+    {
+      "name": "Thessaloníki City Hall Foyer",
+      "address": "Vasiléos Georgíou A’ 1, 54640 Thessaloníki",
+      "latitude": 40.5914,
+      "longitude": 22.9534,
+      "type": "government_building",
+      "capacity": "200 persons",
+      "operating_hours": "07:00–22:00 during alerts",
+      "amenities": ["Air-conditioning", "Drinking fountains", "Seating"],
+      "contact": "2313 318 777",
+      "accessibility": "Full wheelchair access"
+    },
+    {
+      "name": "Open Day Center for Homeless",
+      "address": "Monastiriou 62, 54629 Thessaloníki",
+      "latitude": 40.6414,
+      "longitude": 22.9346,
+      "type": "shelter",
+      "capacity": "120 visitors",
+      "operating_hours": "09:00–18:00",
+      "amenities": ["Cooling hall", "Showers", "Snacks", "Counselling"],
+      "contact": "2313 316 611",
+      "accessibility": "Elevator, ground-floor access"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Evangelismos General Hospital",
+      "address": "45-47 Ipsilantou, 10676 Athens",
+      "latitude": 37.9738,
+      "longitude": 23.7515,
+      "service_level": "Heat-stroke protocol active; extra triage tents",
+      "contact": "+30 213 204 1000",
+      "availability": "Emergency 24/7",
+      "notes": "Cold-water immersion station installed 01/07/25"
+    },
+    {
+      "name": "AHEPA University Hospital",
+      "address": "St. Kyriakidi 1, 54636 Thessaloníki",
+      "latitude": 40.6343,
+      "longitude": 22.9560,
+      "service_level": "Surge capacity +15 beds for heat illness",
+      "contact": "+30 2313 303 000",
+      "availability": "ER 24/7",
+      "notes": "Rapid rehydration unit operational"
+    },
+    {
+      "name": "University Hospital of Larissa",
+      "address": "Biopolis, 41110 Larissa",
+      "latitude": 39.6247,
+      "longitude": 22.4165,
+      "service_level": "Thessaly regional heat hub",
+      "contact": "+30 2413 502 000",
+      "availability": "ER 24/7",
+      "notes": "Air-conditioned waiting tent deployed"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Chief Heat Officer – City of Athens",
+      "service_type": "coordination",
+      "contact": "coolathens.cityofathens.gr",
+      "description": "Heat-risk maps, multilingual advice, EXTREMA mobile app integration",
+      "available": "During heat alerts"
+    },
+    {
+      "name": "Hellenic Red Cross Early Action Teams",
+      "service_type": "community_support",
+      "contact": "+30 210 361 5325",
+      "description": "Water, sunscreen and first-aid distribution to homeless and tourists",
+      "available": "Field support 09:00–21:00"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://greekcitytimes.com/2025/06/25/athens-heatwave/",
+      "title": "Athens opens air-conditioned spaces amid 2025 heatwave",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.iefimerida.gr/english/munincipality-athens-air-conditioned-spaces",
+      "title": "Municipality of Athens cooling centres list",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://keptalkinggreece.com/2024/06/25/city-of-athens-measures-heatwave-summer-2024/",
+      "title": "City of Athens heatwave measures & hotlines",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.typosthes.gr/thessaloniki/394116_ektakta-metra-gia-ton-kaysona-sti-thessaloniki-poy-tha-breite-anases-drosias",
+      "title": "Thessaloníki emergency cooling spaces 2025",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.climatecentre.org/13968/hellenic-red-cross-acts-ahead-of-extreme-heat-in-greece/",
+      "title": "Hellenic Red Cross heat early-action protocol",
+      "accessed": "2025-07-02"
+    }
+  ]
+}

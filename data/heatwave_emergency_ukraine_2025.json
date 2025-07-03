@@ -1,0 +1,240 @@
+{
+  "country": "Ukraine",
+  "country_code": "UA",
+  "last_updated": "2025-07-03T10:00:00Z",
+  "current_status": {
+    "alert_level": "YELLOW",
+    "affected_regions": "Nationwide; highest temperatures in southern regions, Zakarpattia, parts of Prykarpattia",
+    "peak_temperature": "32°C",
+    "alert_valid_until": "2025-07-05",
+    "description": "Moderate heat conditions with temperatures 1.5-2.5°C above normal; infrastructure vulnerabilities due to ongoing conflict and power outages affecting cooling systems"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Ukrainian/English/Polish",
+      "free": true,
+      "description": "Unified emergency services operational nationwide since 2024; coordinates police, medical, fire, and rescue services"
+    },
+    {
+      "name": "Police Emergency",
+      "number": "102",
+      "type": "police_emergency", 
+      "available": "24/7",
+      "language": "Ukrainian",
+      "free": true,
+      "description": "National police emergency services; traditional number remains operational"
+    },
+    {
+      "name": "Medical Emergency",
+      "number": "103",
+      "type": "medical_emergency",
+      "available": "24/7",
+      "language": "Ukrainian",
+      "free": true,
+      "description": "Emergency medical services and ambulance with heat-related illness protocols"
+    },
+    {
+      "name": "Fire Emergency",
+      "number": "101",
+      "type": "fire_emergency",
+      "available": "24/7",
+      "language": "Ukrainian", 
+      "free": true,
+      "description": "Fire and rescue services with emergency response capabilities"
+    },
+    {
+      "name": "Gas Emergency",
+      "number": "104",
+      "type": "gas_emergency",
+      "available": "24/7",
+      "language": "Ukrainian",
+      "free": true,
+      "description": "Gas emergency services and utility outages during high energy demand periods"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "National Library of Ukraine",
+      "address": "62 Volodymyrska Street, Kyiv 01001",
+      "latitude": 50.4484,
+      "longitude": 30.5048,
+      "type": "library",
+      "capacity": "600 visitors",
+      "operating_hours": "09:00-20:00 (Mon-Fri), 10:00-18:00 (weekends) - subject to power availability",
+      "amenities": ["Climate controlled when power available", "Reading halls", "Research facilities", "Backup power systems"],
+      "contact": "+380 44 239 32 31",
+      "accessibility": "Wheelchair accessible with lift"
+    },
+    {
+      "name": "Respublika Park Shopping Center",
+      "address": "Bratyslavska Street 3, Kyiv 02166", 
+      "latitude": 50.4095,
+      "longitude": 30.6197,
+      "type": "shopping_center",
+      "capacity": "20,000+ visitors (largest in Ukraine)",
+      "operating_hours": "10:00-22:00 daily (reduced hours during power outages)",
+      "amenities": ["Central air conditioning", "300,000 m² total area", "Food court", "Cinema", "Swimming pool", "Indoor park"],
+      "contact": "+380 44 594 54 54",
+      "accessibility": "Fully accessible with lifts and ramps"
+    },
+    {
+      "name": "River Mall",
+      "address": "Dnipro embankment, Kyiv",
+      "latitude": 50.4265,
+      "longitude": 30.5572,
+      "type": "shopping_center",
+      "capacity": "5000+ visitors",
+      "operating_hours": "10:00-22:00 (144,000 m² total area)",
+      "amenities": ["HVAC system", "Food courts", "IMAX cinema", "Hypermarket", "Parking"],
+      "contact": "+380 44 492 00 00",
+      "accessibility": "Accessible entrances and facilities"
+    },
+    {
+      "name": "Clust Space - KPI Library Smart Shelter",
+      "address": "Igor Sikorsky Kyiv Polytechnic Institute, Kyiv",
+      "latitude": 50.4492,
+      "longitude": 30.4583,
+      "type": "library_shelter",
+      "capacity": "600 square meters with multiple zones",
+      "operating_hours": "24/7 during emergencies, regular library hours otherwise",
+      "amenities": ["Advanced ventilation and AC system", "Emergency power backup", "72-hour safe capacity", "Coworking spaces", "Sleeping quarters"],
+      "contact": "+380 44 204 82 82",
+      "accessibility": "Fully accessible smart shelter design"
+    },
+    {
+      "name": "National Museum of the History of Ukraine",
+      "address": "2 Volodymyrska Street, Kyiv 01001",
+      "latitude": 50.4507,
+      "longitude": 30.5143,
+      "type": "museum",
+      "capacity": "400 visitors",
+      "operating_hours": "10:00-17:00 (Wed-Sun) - subject to power availability",
+      "amenities": ["Climate controlled exhibition halls", "Café", "Rest areas", "Educational spaces"],
+      "contact": "+380 44 278 13 57",
+      "accessibility": "Wheelchair accessible"
+    },
+    {
+      "name": "Kharkiv Public Library",
+      "address": "5 Maidan Konstytutsii, Kharkiv 61022",
+      "latitude": 49.9923,
+      "longitude": 36.2310,
+      "type": "library", 
+      "capacity": "500 visitors",
+      "operating_hours": "09:00-19:00 (Mon-Fri) - operations depend on regional power situation",
+      "amenities": ["Air conditioning when operational", "Study areas", "Computer access", "Emergency protocols"],
+      "contact": "+380 57 731 05 92",
+      "accessibility": "Ground floor accessible"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Feofaniya Clinical Hospital - Kyiv",
+      "address": "21 Akademika Zabolotnoho Street, Kyiv 03143",
+      "latitude": 50.3634,
+      "longitude": 30.4906,
+      "service_level": "National medical center with heat emergency protocols and backup power systems",
+      "contact": "+380 44 259 41 41",
+      "availability": "Emergency Department 24/7",
+      "notes": "Advanced cooling systems and heat-stroke treatment protocols; priority facility with enhanced power backup"
+    },
+    {
+      "name": "V.P. Pavlusenko Hospital No.2 - Zhytomyr", 
+      "address": "Chudnivska Street, Zhytomyr 10014",
+      "latitude": 50.2649,
+      "longitude": 28.6767,
+      "service_level": "Rebuilt surgical unit with modern medical systems - serves 2 million oblast residents",
+      "contact": "+380 412 37 24 15",
+      "availability": "Emergency services 24/7",
+      "notes": "Recently reconstructed with upgraded HVAC, doubled treatment capacity, backup power systems operational"
+    },
+    {
+      "name": "Regional Clinical Hospital - Dnipro",
+      "address": "9 Soborna Square, Dnipro 49005",
+      "latitude": 48.4593,
+      "longitude": 35.0386,
+      "service_level": "Regional emergency coordination center with enhanced heat emergency preparedness",
+      "contact": "+380 56 713 66 77",
+      "availability": "Trauma and emergency center 24/7",
+      "notes": "Mobile cooling units and heat-illness treatment protocols; regional coordination for eastern Ukraine"
+    },
+    {
+      "name": "Alexander Clinical Hospital - Kharkiv",
+      "address": "195 Moskovskyi Avenue, Kharkiv 61037", 
+      "latitude": 49.9806,
+      "longitude": 36.2750,
+      "service_level": "Historic medical center (since 1875) with wartime emergency protocols including heat emergency response",
+      "contact": "+380 57 711 01 11",
+      "availability": "Emergency Department 24/7",
+      "notes": "Enhanced emergency protocols due to proximity to conflict zone; backup cooling systems for critical care areas"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Ukrainian Hydrometeorological Center",
+      "service_type": "weather_monitoring",
+      "contact": "https://meteo.gov.ua",
+      "description": "National weather forecasting with heat warnings and 24/7 monitoring; issues official heat advisories above 35°C",
+      "available": "Round-the-clock monitoring with 1-10 day forecasts and seasonal predictions"
+    },
+    {
+      "name": "Ministry of Health Emergency Response Coordination",
+      "service_type": "health_emergency_coordination", 
+      "contact": "https://moz.gov.ua",
+      "description": "National health emergency coordination including hospital preparedness for mass casualty incidents and extreme weather events",
+      "available": "Enhanced response during infrastructure emergencies and extreme weather"
+    },
+    {
+      "name": "WHO Ukraine Heat Health Risk Assessment",
+      "service_type": "international_health_support",
+      "contact": "https://www.who.int/ukraine",
+      "description": "2025 Summer risk assessment identifying extreme heat as primary public health hazard; hospital emergency response planning support",
+      "available": "Continuous monitoring and technical assistance during summer 2025"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://mediacenter.org.ua/no-extreme-heat-in-early-july-forecaster-outlines-ukraine-s-upcoming-weather/",
+      "title": "No extreme heat in early July: Ukrainian Hydrometeorological Center weather forecast",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://iris.who.int/bitstream/handle/10665/381697/WHO-EURO-2025-12414-52188-80171-eng.pdf",
+      "title": "WHO Ukraine 2025 Summer Risk Assessment - Extreme heat as primary public health hazard",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://mvs.gov.ua/en/news/jedinii-nomer-ekstrenoyi-dopomogi-112-zapraciuje-po-vsii-ukrayini-do-kincia-2024-roku",
+      "title": "Single emergency number 112 operational throughout Ukraine",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://blauberg-group.com/fresh-air-for-ukraine-s-largest-shopping-mall/",
+      "title": "Respublika Park - Ukraine's largest shopping mall with advanced ventilation systems",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.eib.org/en/press/all/2025-210-ukraine-new-surgical-unit-opens-in-zhytomyr-hospital-under-eu-backed-recovery-programme",
+      "title": "Ukraine: New surgical unit opens in Zhytomyr hospital with modern cooling systems",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://chytomo.com/en/smart-shelter-at-kyiv-polytechnic-institute-library-reading-lounge-coworking-space-and-sleeping-quarters/",
+      "title": "Smart shelter at KPI Library with advanced climate control systems",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ukrainian_energy_crisis",
+      "title": "Ukrainian energy crisis - power infrastructure challenges affecting cooling systems",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "country": "Belgium",
+  "country_code": "BE",
+  "last_updated": "2025-07-03T05:20:00Z",
+  "current_status": {
+    "alert_level": "ORANGE",
+    "affected_regions": "Nationwide – highest in Brussels & Flanders",
+    "peak_temperature": "38°C",
+    "alert_valid_until": "2025-07-05",
+    "description": "RMI code-orange heatwave; Atomium and some rail services on reduced timetable"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Multilingual",
+      "free": true,
+      "description": "Police, fire, ambulance"
+    },
+    {
+      "name": "Samusocial Free Heat Hotline",
+      "number": "0800 99 340",
+      "type": "community_support",
+      "available": "24/7 (heat period)",
+      "language": "French/Dutch",
+      "free": true,
+      "description": "Mobile outreach for homeless, water distribution, medical advice"
+    },
+    {
+      "name": "Brussels Info Service – Code Orange",
+      "number": "02 563 60 00",
+      "type": "municipal_information",
+      "available": "08:00-17:00",
+      "language": "French/Dutch/English",
+      "free": true,
+      "description": "Cooling-centre locations, transport updates"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Muntpunt Library – Brussels",
+      "address": "Munt 6, 1000 Brussels",
+      "latitude": 50.8489,
+      "longitude": 4.3544,
+      "type": "library",
+      "capacity": "350 visitors",
+      "operating_hours": "10:00-18:00 (Mon-Sat) – extended to 20:00 under code orange",
+      "amenities": ["Air-conditioning", "Reading lounge", "Water dispenser"],
+      "contact": "+32 2 278 11 11",
+      "accessibility": "Full"
+    },
+    {
+      "name": "City² Shopping Mall",
+      "address": "Rue Neuve 123, 1000 Brussels",
+      "latitude": 50.8549,
+      "longitude": 4.3561,
+      "type": "shopping_center",
+      "capacity": "5 000+",
+      "operating_hours": "10:00-19:00",
+      "amenities": ["Central AC", "Food court", "Seating"],
+      "contact": "+32 2 203 45 45",
+      "accessibility": "Elevators, ramps"
+    },
+    {
+      "name": "Red Cross Cooling Tent – Parc de Bruxelles",
+      "address": "Rue Royale, 1000 Brussels",
+      "latitude": 50.8467,
+      "longitude": 4.3631,
+      "type": "temporary_shelter",
+      "capacity": "150",
+      "operating_hours": "12:00-20:00 (1–4 July)",
+      "amenities": ["Misting fans", "Water station", "First-aid"],
+      "contact": "+32 2 371 31 11",
+      "accessibility": "Ground-level"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Erasme Hospital Heat Unit",
+      "address": "Route de Lennik 808, 1070 Brussels",
+      "latitude": 50.8124,
+      "longitude": 4.2847,
+      "service_level": "Heat protocol – 10 cooled observation beds",
+      "contact": "+32 2 555 31 11",
+      "availability": "ER 24/7",
+      "notes": "Core-cooling equipment deployed after 37 °C trigger"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "RMI Heat Health Warning System",
+      "service_type": "weather_information",
+      "contact": "https://www.meteo.be",
+      "description": "Official forecast & SMS push alerts for code yellow/orange/red",
+      "available": "Continuous"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.brusselstimes.com/1652852/temperatures-up-to-38c-in-belgium-atomium-closes-tbtb",
+      "title": "Belgium reaches 38 °C; code orange",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://traveltomorrow.com/atomium-shortens-opening-hours-as-brussels-heatwave-overheats-its-iconic-balls/",
+      "title": "Atomium reduces hours due to heat",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.brusselstimes.com/1652837/step-up-in-efforts-to-help-homeless-amid-heatwave",
+      "title": "Samusocial outreach during heatwave",
+      "accessed": "2025-07-02"
+    },
+    {
+      "url": "https://www.newsflare.com/video/760322/belgium-belgium-issues-orange-alert-as-heatwave-set-to-reach-dangerous-levels",
+      "title": "RMI orange alert bulletin",
+      "accessed": "2025-07-02"
+    }
+  ]
+}

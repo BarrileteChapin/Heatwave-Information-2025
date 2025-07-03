@@ -1,0 +1,174 @@
+{
+  "country": "Turkey",
+  "country_code": "TR",
+  "last_updated": "2025-07-03T09:15:00Z",
+  "current_status": {
+    "alert_level": "RED",
+    "affected_regions": "Nationwide, severe wildfire zones in Sakarya, Bilecik, Manisa, İzmir, Hatay",
+    "peak_temperature": "42°C",
+    "alert_valid_until": "2025-07-05", 
+    "description": "Major wildfire emergency with 50,000+ evacuated from 41 locations; over 200 homes damaged amid extreme heat and strong winds"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "Emergency Services",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Turkish/English/Arabic",
+      "free": true,
+      "description": "Consolidated emergency services - police, fire, medical, gendarmerie, coast guard"
+    },
+    {
+      "name": "Municipal Police",
+      "number": "153", 
+      "type": "municipal_police",
+      "available": "24/7",
+      "language": "Turkish",
+      "free": true,
+      "description": "Municipal police for local emergencies and evacuation assistance"
+    },
+    {
+      "name": "Medical Consultation",
+      "number": "184",
+      "type": "medical_advice",
+      "available": "24/7",
+      "language": "Turkish",
+      "free": true,
+      "description": "Non-emergency medical consultation for heat-related health concerns"
+    },
+    {
+      "name": "Gas Emergency",
+      "number": "187",
+      "type": "gas_emergency", 
+      "available": "24/7",
+      "language": "Turkish",
+      "free": true,
+      "description": "Gas leak emergencies and utility outages"
+    },
+    {
+      "name": "Electricity Emergency",
+      "number": "186",
+      "type": "electrical_emergency",
+      "available": "24/7",
+      "language": "Turkish",
+      "free": true,
+      "description": "Electrical emergencies and power outages during high AC usage"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Istanbul Metropolitan Municipality Library",
+      "address": "Meşrutiyet Cd. No:74, 34430 Beyoğlu/İstanbul",
+      "latitude": 41.0341,
+      "longitude": 28.9744,
+      "type": "library", 
+      "capacity": "800 visitors",
+      "operating_hours": "09:00-21:00 (Mon-Sat), 10:00-18:00 (Sun)",
+      "amenities": ["Central air conditioning", "Study areas", "Free WiFi", "Café"],
+      "contact": "+90 212 393 78 00",
+      "accessibility": "Fully accessible with lift"
+    },
+    {
+      "name": "Ankara National Library",
+      "address": "Ehlibeyt Mahallesi, Necatibey Cd. No:4, 06520 Çankaya/Ankara",
+      "latitude": 39.9042,
+      "longitude": 32.8597,
+      "type": "library",
+      "capacity": "600 visitors",
+      "operating_hours": "08:00-20:00 (Mon-Fri), 09:00-17:00 (weekends)", 
+      "amenities": ["Climate controlled", "Research areas", "Digital services", "Restaurant"],
+      "contact": "+90 312 415 12 00",
+      "accessibility": "Wheelchair accessible"
+    },
+    {
+      "name": "Antalya Migros Shopping Center",
+      "address": "Altındağ, Fevzi Çakmak Cd. No:1, 07040 Muratpaşa/Antalya",
+      "latitude": 36.8841,
+      "longitude": 30.6919,
+      "type": "shopping_center",
+      "capacity": "4000+ visitors",
+      "operating_hours": "10:00-22:00 daily",
+      "amenities": ["Central AC", "Food court", "Cinema", "Children's play areas"],
+      "contact": "+90 242 316 70 00", 
+      "accessibility": "Fully accessible"
+    },
+    {
+      "name": "İzmir Konak Municipality Cultural Center",
+      "address": "Cumhuriyet Blv. No:1, 35210 Konak/İzmir",
+      "latitude": 38.4237,
+      "longitude": 27.1428,
+      "type": "cultural_center",
+      "capacity": "500 visitors",
+      "operating_hours": "09:00-21:00 during heat emergency",
+      "amenities": ["Air conditioning", "Theater halls", "Café", "Exhibition areas"],
+      "contact": "+90 232 293 46 00",
+      "accessibility": "Accessible entrances available"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Istanbul University Cerrahpaşa Medical Faculty Hospital", 
+      "address": "Koca Mustafa Paşa, Cerrahpaşa Tıp Fakültesi, 34098 Fatih/İstanbul",
+      "latitude": 41.0011,
+      "longitude": 28.9464,
+      "service_level": "National heat emergency coordination - wildfire casualty treatment",
+      "contact": "+90 212 414 30 00",
+      "availability": "Emergency Department 24/7",
+      "notes": "Specialized burn and smoke inhalation treatment units operational for wildfire victims"
+    },
+    {
+      "name": "Hacettepe University Hospital",
+      "address": "Sıhhiye, 06230 Altındağ/Ankara",
+      "latitude": 39.9392,
+      "longitude": 32.8620,
+      "service_level": "Central Anatolia heat health coordination center",
+      "contact": "+90 312 305 10 01", 
+      "availability": "Emergency services 24/7",
+      "notes": "Enhanced cooling protocols and heat-stroke treatment capacity"
+    },
+    {
+      "name": "Akdeniz University Hospital",
+      "address": "Pınarbaşı, 07070 Konyaaltı/Antalya",
+      "latitude": 36.8969,
+      "longitude": 30.6358,
+      "service_level": "Mediterranean coast emergency response coordination",
+      "contact": "+90 242 249 60 00",
+      "availability": "Emergency Department 24/7",
+      "notes": "Tourist and local population heat emergency treatment protocols active"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Turkish State Meteorological Service", 
+      "service_type": "weather_information",
+      "contact": "https://www.mgm.gov.tr",
+      "description": "Official weather warnings, wildfire risk alerts, and extreme temperature advisories",
+      "available": "24/7 monitoring and emergency alerts"
+    },
+    {
+      "name": "AFAD - Disaster and Emergency Management Presidency",
+      "service_type": "emergency_coordination",
+      "contact": "https://www.afad.gov.tr",
+      "description": "National disaster coordination including wildfire evacuation and emergency shelter",
+      "available": "24/7 emergency response coordination"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.euronews.com/video/2025/06/30/turkey-battles-wildfires-as-heatwave-grips-europe", 
+      "title": "Turkey battles wildfires as heatwave grips Europe - 50,000+ evacuated",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers",
+      "title": "Turkey Emergency Telephone Numbers",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

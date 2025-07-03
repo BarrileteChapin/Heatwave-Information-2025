@@ -1,0 +1,192 @@
+{
+  "country": "Switzerland", 
+  "country_code": "CH",
+  "last_updated": "2025-07-03T02:45:00Z",
+  "current_status": {
+    "alert_level": "YELLOW", 
+    "affected_regions": "Basel-Stadt, Geneva urban areas (ORANGE); other lowland cantons (YELLOW)",
+    "peak_temperature": "34.2°C",
+    "alert_valid_until": "2025-07-04",
+    "description": "MeteoSwiss heat warnings for lowland areas; Basel and Geneva under enhanced protocols with 34°C+ temperatures"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112", 
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Deutsch/Français/Italiano/English",
+      "free": true,
+      "description": "Coordinated emergency services across all Swiss cantons"
+    },
+    {
+      "name": "Swiss Medical Emergency - Sanitätsnotruf",
+      "number": "144",
+      "type": "medical_emergency", 
+      "available": "24/7",
+      "language": "Deutsch/Français/Italiano/Rumantsch",
+      "free": true,
+      "description": "Swiss national medical emergency with heat-related protocols"
+    },
+    {
+      "name": "MeteoSwiss Heat Warning Line",
+      "number": "162",
+      "type": "weather_information",
+      "available": "24/7",
+      "language": "Deutsch/Français/Italiano", 
+      "free": true,
+      "description": "Automated weather warnings and heat alert updates"
+    },
+    {
+      "name": "Spitex Health Advice - Gesundheitsberatung",
+      "number": "0844 11 14 15",
+      "type": "medical_advice",
+      "available": "24/7", 
+      "language": "Deutsch/Français/Italiano",
+      "free": false,
+      "description": "Home care health advice including heat-related symptoms"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Zentralbibliothek Zürich - Klimatisierte Bereiche",
+      "address": "Zähringerplatz 6, 8001 Zürich",
+      "latitude": 47.3769,
+      "longitude": 8.5417,
+      "type": "library",
+      "capacity": "400 Besucher",
+      "operating_hours": "10:00–20:00 (verlängerte Öffnungszeiten bei Hitzewarnung)",
+      "amenities": ["Klimaanlage", "Kostenloses WLAN", "Trinkwasser", "Ruhebereiche"],
+      "contact": "+41 44 268 31 00",
+      "accessibility": "Rollstuhlgängig, Aufzüge vorhanden"
+    },
+    {
+      "name": "Centre Sportif de la Queue d'Arve",
+      "address": "Avenue de la Queue-d'Arve 15, 1227 Carouge", 
+      "latitude": 46.1833,
+      "longitude": 6.1356,
+      "type": "sports_center",
+      "capacity": "300 personnes",
+      "operating_hours": "06:00–22:00 (piscine climatisée)",
+      "amenities": ["Piscine couverte chauffée", "Douches", "Vestiaires", "Espace détente"],
+      "contact": "+41 22 307 89 00", 
+      "accessibility": "Accès PMR, vestiaires adaptés"
+    },
+    {
+      "name": "Freibad Margarethenpark Basel",
+      "address": "Margarethenstrasse 26, 4053 Basel",
+      "latitude": 47.5596,
+      "longitude": 7.5886,
+      "type": "swimming_pool",
+      "capacity": "1000 Badegäste",
+      "operating_hours": "09:00–20:00 (kostenfrei bei Hitzewarnung Stufe 2+)",
+      "amenities": ["Freibad", "Schattenplätze", "Duschen", "Trinkbrunnen"],
+      "contact": "+41 61 267 46 46",
+      "accessibility": "Behindertengerecht, Poollifter verfügbar"
+    },
+    {
+      "name": "Bibliothèque de la Cité - Espace Climatisé",
+      "address": "Place des Trois-Perdrix 5, 1204 Genève",
+      "latitude": 46.2044,
+      "longitude": 6.1432, 
+      "type": "library",
+      "capacity": "250 visiteurs",
+      "operating_hours": "10:00–19:00 (horaires étendus durant alerte)",
+      "amenities": ["Climatisation", "WiFi gratuit", "Points d'eau", "Sièges confortables"],
+      "contact": "+41 22 418 32 00",
+      "accessibility": "Accès PMR complet"
+    },
+    {
+      "name": "Kunstmuseum Bern - Klimatisierte Ausstellungsräume",
+      "address": "Hodlerstrasse 8-12, 3011 Bern",
+      "latitude": 46.9481,
+      "longitude": 7.4474,
+      "type": "museum", 
+      "capacity": "500 Besucher",
+      "operating_hours": "10:00–17:00 (Eintritt frei für Senioren 65+ bei Hitzealarm)",
+      "amenities": ["Vollklimatisierung", "Sitzgelegenheiten", "Café mit kalten Getränken"],
+      "contact": "+41 31 328 09 44",
+      "accessibility": "Rollstuhlgerecht, Behindertenparkplätze"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Universitätsspital Zürich (USZ)",
+      "address": "Rämistrasse 100, 8091 Zürich", 
+      "latitude": 47.3769,
+      "longitude": 8.5500,
+      "service_level": "Notfallstation mit Hitzeschlag-Protokoll aktiviert",
+      "contact": "+41 44 255 11 11",
+      "availability": "Notfall 24/7",
+      "notes": "Zusätzliches Personal und Kühlungseinheiten seit 01.07.2025"
+    },
+    {
+      "name": "Hôpitaux Universitaires de Genève (HUG)",
+      "address": "Rue Gabrielle-Perret-Gentil 4, 1205 Genève",
+      "latitude": 46.1925,
+      "longitude": 6.1369,
+      "service_level": "Plan canicule niveau 1 - surveillance renforcée",
+      "contact": "+41 22 372 33 11", 
+      "availability": "Urgences 24/7",
+      "notes": "Unité de réhydratation rapide opérationnelle"
+    },
+    {
+      "name": "Universitätsspital Basel",
+      "address": "Spitalstrasse 21, 4031 Basel",
+      "latitude": 47.5636,
+      "longitude": 7.5966,
+      "service_level": "Hitzenotfall-Behandlungskapazität erweitert",
+      "contact": "+41 61 265 25 25",
+      "availability": "Notfall 24/7",
+      "notes": "Mobile Kühlungsgeräte in Bereitschaft bei Temperaturen >32°C"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "MeteoSwiss Heat Health Information",
+      "service_type": "information",
+      "contact": "https://www.meteoschweiz.admin.ch",
+      "description": "Daily heat warnings and health recommendations from federal weather service",
+      "available": "Continuous updates during heat episodes"
+    },
+    {
+      "name": "Swiss Red Cross Heat Advisory",
+      "service_type": "community_support", 
+      "contact": "+41 31 387 71 11",
+      "description": "Community support services for vulnerable populations during heat waves",
+      "available": "08:00-17:00 weekdays"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.meteoschweiz.admin.ch/home/wetter/warnungen.html",
+      "title": "MeteoSwiss Official Heat Warnings",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.stadt-zuerich.ch/gud/de/index/umwelt_energie/klimaanpassung/hitze.html", 
+      "title": "City of Zurich Heat Adaptation Measures",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.geneve.ch/fr/themes/environnement/climat/adaptation-climatique",
+      "title": "Geneva Climate Adaptation Services", 
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.gesundheit.bs.ch/de/aktuell/hitze.html",
+      "title": "Basel Health Department Heat Protocols",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.spitex.ch/de/Ueber-Spitex/Spitex-Verband/News/2025/Hitze-Gesundheitstipps",
+      "title": "Spitex Switzerland Heat Health Tips",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "country": "Hungary",
+  "country_code": "HU", 
+  "last_updated": "2025-07-03T06:30:00Z",
+  "current_status": {
+    "alert_level": "RED",
+    "affected_regions": "Nationwide, especially Budapest and eastern counties",
+    "peak_temperature": "39.9°C",
+    "alert_valid_until": "2025-07-05",
+    "description": "Second-degree heat warning nationwide; record temperatures in Kübekháza (39.9°C) and Újpest (39.7°C)"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112", 
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Hungarian/English/German",
+      "free": true,
+      "description": "Integrated emergency services with heat-stroke protocols"
+    },
+    {
+      "name": "Ambulance Service",
+      "number": "104",
+      "type": "medical_emergency",
+      "available": "24/7", 
+      "language": "Hungarian",
+      "free": true,
+      "description": "National ambulance service with enhanced heat emergency response"
+    },
+    {
+      "name": "Fire Brigade", 
+      "number": "105",
+      "type": "fire_emergency",
+      "available": "24/7",
+      "language": "Hungarian",
+      "free": true,
+      "description": "Fire and rescue services with wildfire prevention protocols"
+    },
+    {
+      "name": "Police",
+      "number": "107",
+      "type": "police_emergency",
+      "available": "24/7",
+      "language": "Hungarian",
+      "free": true,
+      "description": "Police services with traffic safety measures during heat"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Széchenyi Fürdő - Thermal Baths",
+      "address": "Állatkerti krt. 9-11, 1146 Budapest",
+      "latitude": 47.5186,
+      "longitude": 19.0813,
+      "type": "thermal_baths",
+      "capacity": "2000+ visitors",
+      "operating_hours": "06:00-22:00 daily",
+      "amenities": ["Indoor thermal pools", "Air-conditioned areas", "Restaurants", "Shade structures"],
+      "contact": "+36 1 363 3210",
+      "accessibility": "Partial accessibility, assistance available"
+    },
+    {
+      "name": "Hungarian National Museum",
+      "address": "Múzeum krt. 14-16, 1088 Budapest", 
+      "latitude": 47.4919,
+      "longitude": 19.0619,
+      "type": "museum",
+      "capacity": "500 visitors",
+      "operating_hours": "10:00-18:00 (Tue-Sun)",
+      "amenities": ["Air conditioning", "Café", "Rest areas", "Garden courtyard"],
+      "contact": "+36 1 327 7700",
+      "accessibility": "Wheelchair accessible"
+    },
+    {
+      "name": "Corvin Plaza Shopping Center", 
+      "address": "Futó u. 37-45, 1082 Budapest",
+      "latitude": 47.4858,
+      "longitude": 19.0808,
+      "type": "shopping_center",
+      "capacity": "3000+ visitors",
+      "operating_hours": "10:00-21:00 daily",
+      "amenities": ["Central air conditioning", "Food court", "Seating areas", "Cinema"],
+      "contact": "+36 1 459 5900",
+      "accessibility": "Fully accessible"
+    },
+    {
+      "name": "Debrecen Déri Museum",
+      "address": "Déri tér 1, 4026 Debrecen",
+      "latitude": 47.5311,
+      "longitude": 21.6261,
+      "type": "museum",
+      "capacity": "200 visitors",
+      "operating_hours": "10:00-18:00 (Tue-Sun)",
+      "amenities": ["Climate controlled", "Café", "Garden areas"],
+      "contact": "+36 52 322 207", 
+      "accessibility": "Ground floor accessible"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Semmelweis University Heart and Vascular Center",
+      "address": "Városmajor u. 68, 1122 Budapest", 
+      "latitude": 47.5030,
+      "longitude": 19.0196,
+      "service_level": "National heat emergency protocol - mobile cooling units deployed",
+      "contact": "+36 1 458 6810",
+      "availability": "Emergency cardiology 24/7",
+      "notes": "Specialized heat-stroke treatment unit with body cooling equipment"
+    },
+    {
+      "name": "University of Debrecen Clinical Center", 
+      "address": "Nagyerdei krt. 98, 4032 Debrecen",
+      "latitude": 47.5625,
+      "longitude": 21.6040,
+      "service_level": "Enhanced emergency capacity for heat-related illnesses",
+      "contact": "+36 52 511 777",
+      "availability": "Emergency Department 24/7",
+      "notes": "Additional hydration stations and cooling protocols active"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "HungaroMet Weather Warning System",
+      "service_type": "weather_information",
+      "contact": "https://www.met.hu", 
+      "description": "Official meteorological warnings and heat advisories",
+      "available": "Real-time updates during heat warnings"
+    },
+    {
+      "name": "National Public Health Center Heat Advice",
+      "service_type": "health_information",
+      "contact": "https://www.nnk.gov.hu",
+      "description": "Public health guidance and heat safety recommendations",
+      "available": "Updated during heat episodes"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://dailynewshungary.com/hungary-issues-2nd-degree-heat-warning/",
+      "title": "Hungary issues 2nd-degree heat warning as temperatures soar",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://budappest.com/warning-budapest-issues-first-heat-alert-of-summer-2025-as-temperatures-set-to-soar/",
+      "title": "Budapest Issues First Heat Alert of Summer 2025",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

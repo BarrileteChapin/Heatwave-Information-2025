@@ -1,0 +1,149 @@
+{
+  "country": "Norway",
+  "country_code": "NO", 
+  "last_updated": "2025-07-03T07:30:00Z",
+  "current_status": {
+    "alert_level": "GREEN",
+    "affected_regions": "Southern Norway, Oslo region",
+    "peak_temperature": "28°C",
+    "alert_valid_until": "2025-07-04",
+    "description": "Met.no elevated temperatures for southern regions; influx of European heat refugees seeking cooler climate"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "Police Emergency",
+      "number": "112",
+      "type": "police_emergency",
+      "available": "24/7", 
+      "language": "Norwegian/English",
+      "free": true,
+      "description": "Police emergency services and coordination"
+    },
+    {
+      "name": "Medical Emergency",
+      "number": "113",
+      "type": "medical_emergency",
+      "available": "24/7",
+      "language": "Norwegian/English",
+      "free": true,
+      "description": "Ambulance and emergency medical services"
+    },
+    {
+      "name": "Fire Emergency", 
+      "number": "110",
+      "type": "fire_emergency",
+      "available": "24/7",
+      "language": "Norwegian",
+      "free": true,
+      "description": "Fire brigade and rescue services"
+    },
+    {
+      "name": "Sea Emergency",
+      "number": "120",
+      "type": "maritime_emergency",
+      "available": "24/7",
+      "language": "Norwegian/English",
+      "free": true,
+      "description": "Maritime rescue and coastal emergencies"
+    },
+    {
+      "name": "Police Non-Emergency", 
+      "number": "02800",
+      "type": "police_non_emergency",
+      "available": "24/7",
+      "language": "Norwegian",
+      "free": false,
+      "description": "Non-urgent police matters"
+    },
+    {
+      "name": "Health Information",
+      "number": "116 117",
+      "type": "medical_advice",
+      "available": "24/7",
+      "language": "Norwegian",
+      "free": true,
+      "description": "Medical advice and nearest healthcare outside office hours"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Deichman Bjørvika Library",
+      "address": "Anne-Cath. Vestlys plass 1, 0150 Oslo", 
+      "latitude": 59.9065,
+      "longitude": 10.7526,
+      "type": "library",
+      "capacity": "800 visitors",
+      "operating_hours": "10:00-22:00 (Mon-Fri), 10:00-18:00 (weekends)",
+      "amenities": ["Air conditioning", "Study areas", "Café", "Harbor views"],
+      "contact": "+47 23 43 29 00",
+      "accessibility": "Fully accessible"
+    },
+    {
+      "name": "Norwegian Museum of Cultural History",
+      "address": "Museumsveien 10, 0287 Oslo",
+      "latitude": 59.9043,
+      "longitude": 10.6840, 
+      "type": "museum",
+      "capacity": "300 visitors",
+      "operating_hours": "10:00-17:00 daily (summer)",
+      "amenities": ["Climate controlled buildings", "Restaurant", "Outdoor shaded areas"],
+      "contact": "+47 22 12 37 00",
+      "accessibility": "Most buildings accessible"
+    },
+    {
+      "name": "Bergen Public Library",
+      "address": "Strømgaten 6, 5015 Bergen",
+      "latitude": 60.3913,
+      "longitude": 5.3221,
+      "type": "library", 
+      "capacity": "400 visitors",
+      "operating_hours": "09:00-20:00 (Mon-Thu), 09:00-17:00 (Fri-Sat)",
+      "amenities": ["Air conditioning", "Reading rooms", "Children's area"],
+      "contact": "+47 55 56 85 60",
+      "accessibility": "Wheelchair accessible"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Oslo University Hospital - Rikshospitalet",
+      "address": "Sognsvannsveien 20, 0372 Oslo",
+      "latitude": 59.9479,
+      "longitude": 10.7196,
+      "service_level": "Standard summer protocols - monitoring for heat-related issues", 
+      "contact": "+47 23 07 00 00",
+      "availability": "Emergency services 24/7",
+      "notes": "Enhanced hydration protocols for vulnerable patients"
+    },
+    {
+      "name": "Haukeland University Hospital Bergen",
+      "address": "Jonas Lies vei 65, 5021 Bergen",
+      "latitude": 60.3652,
+      "longitude": 5.3528,
+      "service_level": "Western Norway regional emergency center",
+      "contact": "+47 55 97 20 00",
+      "availability": "Emergency Department 24/7", 
+      "notes": "Prepared for heat-related admissions from southern Norway"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Norwegian Meteorological Institute",
+      "service_type": "weather_information",
+      "contact": "https://www.met.no",
+      "description": "Official weather forecasts and warnings",
+      "available": "24/7 weather monitoring"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.thebarentsobserver.com/news/europe-heatwave-we-are-lucky-to-be-here/432584", 
+      "title": "Europe heatwave: We are lucky to be here - tourists in Northern Norway",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

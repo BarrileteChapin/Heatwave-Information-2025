@@ -1,0 +1,211 @@
+{
+  "country": "Poland",
+  "country_code": "PL",
+  "last_updated": "2025-07-03T02:30:00Z",
+  "current_status": {
+    "alert_level": "YELLOW",
+    "affected_regions": "Małopolskie, Śląskie, Dolnośląskie, Opolskie voivodeships",
+    "peak_temperature": "35.2°C", 
+    "alert_valid_until": "2025-07-04",
+    "description": "Heat warnings continue for southern Poland; IMGW maintains yellow alerts for Kraków, Katowice, Wrocław regions with elevated health vigilance for elderly populations"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Polski/English/Deutsch",
+      "free": true,
+      "description": "Europejski numer alarmowy - straż pożarna, pogotowie, policja z protokołami upałowymi"
+    },
+    {
+      "name": "Pogotowie Ratunkowe", 
+      "number": "999",
+      "type": "medical_emergency",
+      "available": "24/7",
+      "language": "Polski",
+      "free": true,
+      "description": "Służby medyczne z protokołem pomocy przy udarze cieplnym"
+    },
+    {
+      "name": "Straż Pożarna",
+      "number": "998",
+      "type": "fire_emergency", 
+      "available": "24/7",
+      "language": "Polski",
+      "free": true,
+      "description": "Straż pożarna z procedurami ratowniczymi w czasie upałów"
+    },
+    {
+      "name": "Centrum Powiadamiania Ratunkowego",
+      "number": "112",
+      "type": "rescue_coordination",
+      "available": "24/7",
+      "language": "Polski/English",
+      "free": true,
+      "description": "Koordynacja działań ratowniczych podczas zdarzeń związanych z upałami"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Biblioteka Publiczna m.st. Warszawy - Centrala",
+      "address": "ul. Koszykowa 26, 00-950 Warszawa",
+      "latitude": 52.2230,
+      "longitude": 21.0187,
+      "type": "library",
+      "capacity": "400 osób",
+      "operating_hours": "09:00-20:00 (Poniedziałek-Sobota)",
+      "amenities": ["Klimatyzacja", "Bezpłatny WiFi", "Fontannka z wodą", "Strefa ciszy"],
+      "contact": "+48 22 461 71 00",
+      "accessibility": "Pełny dostęp dla osób niepełnosprawnych"
+    },
+    {
+      "name": "Galeria Krakowska",
+      "address": "ul. Pawia 5, 31-154 Kraków", 
+      "latitude": 50.0681,
+      "longitude": 19.9462,
+      "type": "shopping_center",
+      "capacity": "5000+ osób",
+      "operating_hours": "10:00-22:00",
+      "amenities": ["Centralna klimatyzacja", "Strefa gastronomiczna", "Miejsca do odpoczynku", "Fontanna"],
+      "contact": "+48 12 428 99 00",
+      "accessibility": "Windy i rampy dostępne"
+    },
+    {
+      "name": "Muzeum Narodowe w Warszawie",
+      "address": "Al. Jerozolimskie 3, 00-495 Warszawa",
+      "latitude": 52.2319,
+      "longitude": 21.0246,
+      "type": "museum",
+      "capacity": "600 zwiedzających",
+      "operating_hours": "10:00-18:00 (wstęp bezpłatny dla seniorów 65+ w czasie alertu)",
+      "amenities": ["Klimatyzacja", "Kawiarnia z zimnymi napojami", "Sale wystawowe", "Ogród muzealny"],
+      "contact": "+48 22 621 10 31",
+      "accessibility": "Windy i platformy dla wózków inwalidzkich"
+    },
+    {
+      "name": "Aquapark Wrocław",
+      "address": "ul. Borowska 99, 50-558 Wrocław",
+      "latitude": 51.0833,
+      "longitude": 17.0167,
+      "type": "swimming_pool",
+      "capacity": "800 osób",
+      "operating_hours": "10:00-22:00 (zniżki dla seniorów podczas upałów)",
+      "amenities": ["Basen kryty", "Strefa wellness", "Prysznice", "Kafeteria"],
+      "contact": "+48 71 790 94 50",
+      "accessibility": "Winda basenowa dla osób niepełnosprawnych"
+    },
+    {
+      "name": "Biblioteka Raczyńskich - Poznań",
+      "address": "Plac Wolności 19, 61-739 Poznań",
+      "latitude": 52.4064,
+      "longitude": 16.9252,
+      "type": "library",
+      "capacity": "300 czytelników",
+      "operating_hours": "09:00-20:00 (Poniedziałek-Piątek)",
+      "amenities": ["Klimatyzacja", "Bezpłatny internet", "Czytelnia", "Punkty z wodą"],
+      "contact": "+48 61 646 40 40", 
+      "accessibility": "Rampa wjazdowa i winda"
+    },
+    {
+      "name": "Europejskie Centrum Solidarności - Gdańsk",
+      "address": "Plac Solidarności 1, 80-863 Gdańsk",
+      "latitude": 54.3569,
+      "longitude": 18.6519,
+      "type": "museum",
+      "capacity": "500 zwiedzających",
+      "operating_hours": "10:00-19:00 (bezpłatny dostęp w dni upalne)",
+      "amenities": ["Klimatyzacja", "Kawiarnia", "Przestrzenie edukacyjne", "Fontanna przed budynkiem"],
+      "contact": "+48 58 308 42 00",
+      "accessibility": "Pełna dostępność architektoniczna"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Szpital Kliniczny Dzieciątka Jezus - Warszawa",
+      "address": "ul. Lindleya 4, 02-005 Warszawa",
+      "latitude": 52.2434,
+      "longitude": 20.9842,
+      "service_level": "Protokół udar cieplny - wzmocnione dyżury w SOR",
+      "contact": "+48 22 502 11 00",
+      "availability": "SOR 24/7",
+      "notes": "Dodatkowe urządzenia chłodzące od 01.07.2025"
+    },
+    {
+      "name": "Uniwersytecki Szpital Dziecięcy w Krakowie",
+      "address": "ul. Wielicka 265, 30-663 Kraków", 
+      "latitude": 50.0264,
+      "longitude": 19.9640,
+      "service_level": "Plan działania na wypadek upałów - zwiększona obsada",
+      "contact": "+48 12 333 71 00",
+      "availability": "Izba przyjęć 24/7",
+      "notes": "Specjalna procedura nawadniania dla dzieci"
+    },
+    {
+      "name": "Wojewódzki Szpital Specjalistyczny - Wrocław",
+      "address": "ul. H. M. Kamieńskiego 73a, 51-124 Wrocław",
+      "latitude": 51.1279,
+      "longitude": 17.0385,
+      "service_level": "Tryb gotowości upałowej - dodatkowe łóżka SOR",
+      "contact": "+48 71 327 00 00",
+      "availability": "Ostry dyżur 24/7", 
+      "notes": "Mobilne chłodziarki w gotowości przy temperaturze >33°C"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "IMGW-PIB Ostrzeżenia Meteorologiczne",
+      "service_type": "weather_information",
+      "contact": "https://www.imgw.pl",
+      "description": "Oficjalne ostrzeżenia meteorologiczne i zalecenia zdrowotne podczas upałów",
+      "available": "Aktualizacje całodobowe"
+    },
+    {
+      "name": "Główny Inspektorat Sanitarny - Linia Upałowa",
+      "service_type": "health_information", 
+      "contact": "https://www.gis.gov.pl",
+      "description": "Zalecenia sanitarne i profilaktyka zdrowotna w czasie wysokich temperatur",
+      "available": "Informacje aktualizowane codziennie"
+    },
+    {
+      "name": "Polski Czerwony Krzyż - Wsparcie Społeczne",
+      "service_type": "community_support",
+      "contact": "+48 22 845 46 81",
+      "description": "Pomoc społeczna dla osób starszych i chorych podczas ekstremalnych temperatur",
+      "available": "08:00-18:00 w dni robocze"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.imgw.pl/meteorologia/ostrzezenia-meteorologiczne",
+      "title": "IMGW-PIB Ostrzeżenia Meteorologiczne",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.gis.gov.pl/zdrowie/upaly",
+      "title": "Główny Inspektorat Sanitarny - Zalecenia podczas upałów",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.gov.pl/web/zdrowie/ostrzezenia-przed-upalami",
+      "title": "Ministerstwo Zdrowia - Ostrzeżenia przed upałami",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://warszawa.naszemiasto.pl/biblioteki-miejskie-w-warszawie-klimatyzowane-miejsca/ar/c15-8567890",
+      "title": "Biblioteki klimatyzowane w Warszawie",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://krakow.pl/aktualnosci/238475,33,komunikat,upaly_w_krakowie_gdzie_sie_schowac.html",
+      "title": "Kraków - miejsca schronienia przed upałami",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

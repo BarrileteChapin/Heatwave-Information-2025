@@ -1,0 +1,155 @@
+{
+  "country": "Cyprus",
+  "country_code": "CY",
+  "last_updated": "2025-07-03T09:30:00Z",
+  "current_status": {
+    "alert_level": "RED",
+    "affected_regions": "Nationwide, particularly inland areas",
+    "peak_temperature": "41°C", 
+    "alert_valid_until": "2025-07-05",
+    "description": "Extreme fire danger with red forest fire alert; yellow temperature warning in effect with peak electricity demand recorded"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "European Emergency Number",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Greek/Turkish/English",
+      "free": true,
+      "description": "Police, fire, ambulance services with heat and wildfire emergency protocols"
+    },
+    {
+      "name": "Police Emergency",
+      "number": "199", 
+      "type": "police_emergency",
+      "available": "24/7",
+      "language": "Greek/Turkish",
+      "free": true,
+      "description": "Cyprus Police emergency services"
+    },
+    {
+      "name": "Fire Emergency",
+      "number": "192",
+      "type": "fire_emergency",
+      "available": "24/7",
+      "language": "Greek/Turkish",
+      "free": true,
+      "description": "Fire service with enhanced wildfire response during red alert"
+    },
+    {
+      "name": "Medical Emergency",
+      "number": "194",
+      "type": "medical_emergency", 
+      "available": "24/7",
+      "language": "Greek/Turkish/English",
+      "free": true,
+      "description": "Emergency medical services with heat-stroke treatment protocols"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Cyprus Library Nicosia",
+      "address": "20 Evagoras Avenue, 1066 Nicosia",
+      "latitude": 35.1725,
+      "longitude": 33.3640,
+      "type": "library",
+      "capacity": "300 visitors",
+      "operating_hours": "08:00-19:00 (Mon-Fri), 08:00-14:00 (Sat)",
+      "amenities": ["Air conditioning", "Reading areas", "Free WiFi", "Study rooms"], 
+      "contact": "+357 22 303 013",
+      "accessibility": "Wheelchair accessible"
+    },
+    {
+      "name": "Mall of Cyprus",
+      "address": "Amphipoleos 1, 2025 Nicosia",
+      "latitude": 35.1500,
+      "longitude": 33.3833,
+      "type": "shopping_center",
+      "capacity": "3000+ visitors",
+      "operating_hours": "10:00-22:00 daily",
+      "amenities": ["Central air conditioning", "Food court", "Cinema", "Children's entertainment"],
+      "contact": "+357 22 200 000",
+      "accessibility": "Fully accessible"
+    },
+    {
+      "name": "Limassol Municipal Library", 
+      "address": "Eleftheria Square, 3603 Limassol",
+      "latitude": 34.6841,
+      "longitude": 33.0488,
+      "type": "library",
+      "capacity": "250 visitors",
+      "operating_hours": "08:00-19:00 (Mon-Fri), 08:00-13:00 (Sat)",
+      "amenities": ["Climate controlled", "Internet access", "Children's section"],
+      "contact": "+357 25 878 600",
+      "accessibility": "Ground floor accessible"
+    },
+    {
+      "name": "Cyprus Museum",
+      "address": "1 Museum Street, 1097 Nicosia",
+      "latitude": 35.1764,
+      "longitude": 33.3622,
+      "type": "museum", 
+      "capacity": "200 visitors",
+      "operating_hours": "08:00-16:00 (Mon-Fri), 09:00-17:00 (Sat-Sun)",
+      "amenities": ["Air conditioning", "Archaeological collections", "Gift shop"],
+      "contact": "+357 22 865 854",
+      "accessibility": "Limited accessibility"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Nicosia General Hospital",
+      "address": "Old Road of Nicosia-Limassol, 2029 Strovolos",
+      "latitude": 35.1394,
+      "longitude": 33.3500,
+      "service_level": "National heat emergency center - enhanced cooling capacity",
+      "contact": "+357 22 603 000", 
+      "availability": "Emergency Department 24/7",
+      "notes": "Additional cooling equipment and specialized heat-stroke treatment protocols"
+    },
+    {
+      "name": "Limassol General Hospital",
+      "address": "Nikodimou Mylona 21, 3603 Limassol",
+      "latitude": 34.6917,
+      "longitude": 33.0406,
+      "service_level": "Coastal region heat health coordination",
+      "contact": "+357 25 801 100",
+      "availability": "Emergency services 24/7",
+      "notes": "Enhanced protocols for tourists and elderly populations during extreme heat"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Cyprus Meteorological Service", 
+      "service_type": "weather_information",
+      "contact": "http://www.moa.gov.cy/moa/ms/ms.nsf",
+      "description": "Official weather warnings and fire danger alerts",
+      "available": "Continuous monitoring during extreme weather"
+    },
+    {
+      "name": "Cyprus Forestry Department",
+      "service_type": "fire_risk_coordination",
+      "contact": "http://www.moa.gov.cy/forest",
+      "description": "Forest fire risk assessment and prevention coordination",
+      "available": "24/7 monitoring during red fire danger alerts"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://cyprus-mail.com/2025/06/26/heat-hits-41c-as-fire-risk-peaks-in-cyprus", 
+      "title": "Heat hits 41C as fire risk peaks in Cyprus",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://cyprus-mail.com/2025/06/27/high-temperatures-see-electricity-demand-peak",
+      "title": "High temperatures see electricity demand peak in Cyprus",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "country": "Serbia",
+  "country_code": "RS",
+  "last_updated": "2025-07-03T08:00:00Z",
+  "current_status": {
+    "alert_level": "RED",
+    "affected_regions": "Nationwide, especially Belgrade and Vojvodina",
+    "peak_temperature": "40.7°C", 
+    "alert_valid_until": "2025-07-05",
+    "description": "Record-breaking temperatures since 19th century; Belgrade reached 37°C with extreme heat persisting across country"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "Emergency Services",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Serbian/English",
+      "free": true,
+      "description": "Unified emergency services - press 1 for police, 2 for ambulance, 3 for fire"
+    },
+    {
+      "name": "Police Emergency", 
+      "number": "192",
+      "type": "police_emergency",
+      "available": "24/7",
+      "language": "Serbian",
+      "free": true,
+      "description": "Direct police emergency line"
+    },
+    {
+      "name": "Medical Emergency",
+      "number": "194",
+      "type": "medical_emergency",
+      "available": "24/7",
+      "language": "Serbian",
+      "free": true,
+      "description": "Emergency medical services and ambulance"
+    },
+    {
+      "name": "Fire Emergency",
+      "number": "193", 
+      "type": "fire_emergency",
+      "available": "24/7",
+      "language": "Serbian",
+      "free": true,
+      "description": "Fire department and rescue services"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "National Library of Serbia",
+      "address": "Skerlićeva 1, 11000 Belgrade",
+      "latitude": 44.8048,
+      "longitude": 20.4697,
+      "type": "library",
+      "capacity": "500 visitors",
+      "operating_hours": "09:00-20:00 (Mon-Fri), 09:00-15:00 (Sat)", 
+      "amenities": ["Air conditioning", "Reading halls", "Free WiFi", "Café"],
+      "contact": "+381 11 2451 242",
+      "accessibility": "Wheelchair accessible"
+    },
+    {
+      "name": "Belgrade Fair - Hall 1",
+      "address": "Bulevar vojvode Mišića 14, 11000 Belgrade",
+      "latitude": 44.8031,
+      "longitude": 20.4467,
+      "type": "exhibition_center",
+      "capacity": "2000+ visitors",
+      "operating_hours": "10:00-20:00 during heat emergency",
+      "amenities": ["Large air-conditioned space", "Food services", "Parking"],
+      "contact": "+381 11 2655 555", 
+      "accessibility": "Fully accessible"
+    },
+    {
+      "name": "Novi Sad City Library",
+      "address": "Dunavska 1, 21000 Novi Sad",
+      "latitude": 45.2551,
+      "longitude": 19.8447,
+      "type": "library",
+      "capacity": "300 visitors",
+      "operating_hours": "08:00-20:00 (Mon-Fri), 08:00-15:00 (Sat)",
+      "amenities": ["Climate controlled", "Study areas", "Children's section"],
+      "contact": "+381 21 420 199",
+      "accessibility": "Ground floor accessible"
+    },
+    {
+      "name": "Niš Cultural Center", 
+      "address": "Generala Milojka Lešjanina 21, 18000 Niš",
+      "latitude": 43.3209,
+      "longitude": 21.8954,
+      "type": "cultural_center",
+      "capacity": "400 visitors",
+      "operating_hours": "10:00-22:00 during heat wave",
+      "amenities": ["Air conditioning", "Theater halls", "Café", "Gallery"],
+      "contact": "+381 18 504 887",
+      "accessibility": "Ramp access available"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Clinical Center of Serbia",
+      "address": "Pasterova 2, 11000 Belgrade",
+      "latitude": 44.8094,
+      "longitude": 20.4761,
+      "service_level": "National heat emergency protocol - enhanced cooling capacity",
+      "contact": "+381 11 3615 000", 
+      "availability": "Emergency Center 24/7",
+      "notes": "Mobile cooling units and specialized heat-stroke treatment protocols active"
+    },
+    {
+      "name": "Clinical Center Vojvodina",
+      "address": "Hajduk Veljkova 1-7, 21000 Novi Sad",
+      "latitude": 45.2396,
+      "longitude": 19.8227,
+      "service_level": "Regional heat health coordination center",
+      "contact": "+381 21 484 4001",
+      "availability": "Emergency services 24/7",
+      "notes": "Additional medical staff and cooling equipment during extreme heat"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Republic Hydrometeorological Service of Serbia", 
+      "service_type": "weather_information",
+      "contact": "https://www.hidmet.gov.rs",
+      "description": "Official weather warnings and heat advisories",
+      "available": "Continuous monitoring during heat episodes"
+    },
+    {
+      "name": "Institute of Public Health of Serbia",
+      "service_type": "health_coordination",
+      "contact": "https://www.batut.org.rs",
+      "description": "Public health guidance and heat emergency coordination",
+      "available": "Enhanced monitoring during extreme heat"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://balkaneu.com/balkans-sizzle-under-record-heatwave-sparking-health-warnings-and-wildfire-fears/", 
+      "title": "Balkans Sizzle Under Record Heatwave",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://mkweather.com/east-central-europe-and-the-balkans-with-new-or-almost-new-national-june-records-north-macedonia-41-7c-serbia-40-7c-bosnia-and-herzegovina-40-5c-romania-40-0c-hungary/",
+      "title": "Serbia reaches 40.7°C - near national June record",
+      "accessed": "2025-07-03"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "country": "Italy",
+  "country_code": "IT",
+  "last_updated": "2025-07-03T03:30:00Z",
+  "current_status": {
+    "alert_level": "RED",
+    "affected_cities": 27,
+    "red_alert_cities": 18,
+    "peak_temperature": "40°C+",
+    "alert_valid_until": "2025-07-05",
+    "description": "Emergenza caldo critica: 18 città con bollino rosso incluse Roma, Milano, Firenze. Protocolli ospedalieri attivati, incremento accessi PS fino al 20%"
+  },
+
+  "emergency_contacts": [
+    {
+      "name": "Numero Verde Emergenza Caldo",
+      "number": "1500",
+      "type": "heatwave_hotline",
+      "available": "Lunedì-Venerdì 9:00-17:00",
+      "language": "Italiano",
+      "free": true,
+      "description": "Consulenza medica per emergenze caldo, informazioni sui servizi sociosanitari territoriali"
+    },
+    {
+      "name": "Numero Europeo di Emergenza",
+      "number": "112",
+      "type": "general_emergency",
+      "available": "24/7",
+      "language": "Italiano/English/Français/Deutsch",
+      "free": true,
+      "description": "Emergenze sanitarie, vigili del fuoco, forze dell'ordine con protocolli caldo attivati"
+    },
+    {
+      "name": "Emergenza Sanitaria",
+      "number": "118",
+      "type": "medical_emergency",
+      "available": "24/7", 
+      "language": "Italiano",
+      "free": true,
+      "description": "Soccorso medico urgente con protocolli specifici per colpo di calore"
+    },
+    {
+      "name": "Vigili del Fuoco",
+      "number": "115",
+      "type": "fire_emergency",
+      "available": "24/7",
+      "language": "Italiano",
+      "free": true,
+      "description": "Servizi antincendio e soccorso tecnico durante emergenze climatiche"
+    }
+  ],
+
+  "cooling_centers": [
+    {
+      "name": "Biblioteca Salaborsa - Bologna",
+      "address": "Piazza del Nettuno 3, 40124 Bologna",
+      "latitude": 41.8919,
+      "longitude": 12.4864,
+      "type": "library",
+      "capacity": "800 visitatori",
+      "operating_hours": "10:00-20:00 (lunedì-sabato), 14:00-20:00 (domenica)",
+      "amenities": ["Aria condizionata", "WiFi gratuito", "Aree di studio", "Fontane d'acqua"],
+      "contact": "+39 051 204400",
+      "accessibility": "Completamente accessibile, ascensori disponibili"
+    },
+    {
+      "name": "Museo del Novecento - Milano",
+      "address": "Via Marconi 1, 20123 Milano",
+      "latitude": 45.4654,
+      "longitude": 9.1859,
+      "type": "museum",
+      "capacity": "600 visitatori",
+      "operating_hours": "09:30-19:30 (ingresso gratuito 2 ore prima chiusura)",
+      "amenities": ["Climatizzazione", "Terrazza panoramica", "Caffetteria", "Ascensori"],
+      "contact": "+39 02 884 440 61",
+      "accessibility": "Accesso completo PMR"
+    },
+    {
+      "name": "Palazzo Barberini - Roma",
+      "address": "Via delle Quattro Fontane 13, 00184 Roma",
+      "latitude": 41.9037,
+      "longitude": 12.4898,
+      "type": "museum",
+      "capacity": "500 visitatori",
+      "operating_hours": "09:00-19:00 (chiuso lunedì)",
+      "amenities": ["Aria condizionata", "Giardino interno", "Caffetteria", "Aree riposo"],
+      "contact": "+39 06 32810",
+      "accessibility": "Accessibile in carrozzina"
+    },
+    {
+      "name": "Biblioteca delle Oblate - Firenze",
+      "address": "Via dell'Oriuolo 26, 50122 Firenze",
+      "latitude": 43.7696,
+      "longitude": 11.2558,
+      "type": "library",
+      "capacity": "400 posti",
+      "operating_hours": "09:00-24:00 (lunedì-sabato), 15:00-20:00 (domenica)",
+      "amenities": ["Climatizzazione", "Terrazza panoramica", "Caffè", "Sale studio"],
+      "contact": "+39 055 2616512",
+      "accessibility": "Rampe e ascensori per disabilità motorie"
+    },
+    {
+      "name": "Palazzo Reale - Torino",
+      "address": "Piazzetta Reale 1, 10122 Torino",
+      "latitude": 45.0732,
+      "longitude": 7.6862,
+      "type": "museum",
+      "capacity": "600 visitatori",
+      "operating_hours": "08:30-19:30 (martedì-domenica)",
+      "amenities": ["Climatizzazione", "Giardini Reali ombreggiati", "Caffetteria"],
+      "contact": "+39 011 436 1455",
+      "accessibility": "Accesso facilitato per persone con disabilità"
+    },
+    {
+      "name": "Musei di Strada Nuova - Genova",
+      "address": "Via Garibaldi 11, 16124 Genova",
+      "latitude": 44.4056,
+      "longitude": 8.9322,
+      "type": "museum",
+      "capacity": "300 visitatori",
+      "operating_hours": "09:00-19:00 (chiuso lunedì)",
+      "amenities": ["Aria condizionata", "Cortili interni freschi", "Bar climatizzato"],
+      "contact": "+39 010 557 4972",
+      "accessibility": "Ascensori e percorsi accessibili"
+    },
+    {
+      "name": "Palazzo Ducale - Venezia",
+      "address": "Piazza San Marco 1, 30124 Venezia",
+      "latitude": 45.4339,
+      "longitude": 12.3403,
+      "type": "museum", 
+      "capacity": "800 visitatori",
+      "operating_hours": "08:30-19:00",
+      "amenities": ["Climatizzazione", "Sale storiche fresche", "Caffetteria"],
+      "contact": "+39 041 271 5911",
+      "accessibility": "Accesso limitato per carrozzine"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "name": "Ospedale Niguarda - Milano",
+      "address": "Piazza Ospedale Maggiore 3, 20162 Milano",
+      "latitude": 45.5127,
+      "longitude": 9.2099,
+      "service_level": "Protocollo colpo di calore attivo - PS potenziato",
+      "contact": "+39 02 6444 1",
+      "availability": "Pronto Soccorso 24/7",
+      "notes": "Protocolli avanzati raffreddamento corporeo, barelle-doccia operative, incremento 23 ricoveri lunedì"
+    },
+    {
+      "name": "Azienda Ospedaliera Cardarelli - Napoli", 
+      "address": "Via Antonio Cardarelli 9, 80131 Napoli",
+      "latitude": 40.8564,
+      "longitude": 14.2681,
+      "service_level": "Codice calore attivato - 450 accessi critici ultimi 10 giorni",
+      "contact": "+39 081 747 1111",
+      "availability": "Emergenza 24/7",
+      "notes": "Picco 250 accessi/giorno, 30% codici rosso/arancione per disidratazione anziani"
+    },
+    {
+      "name": "Policlinico Umberto I - Roma",
+      "address": "Viale del Policlinico 155, 00161 Roma",
+      "latitude": 41.9109,
+      "longitude": 12.5133,
+      "service_level": "Piano sorveglianza popolazione fragile over-65 attivato",
+      "contact": "+39 06 49971",
+      "availability": "Pronto Soccorso 24/7",
+      "notes": "Sistema HHWWS operativo, sorveglianza attiva pazienti a rischio livello 3-4"
+    },
+    {
+      "name": "Azienda Ospedaliera Universitaria Pisana",
+      "address": "Via Roma 67, 56126 Pisa",
+      "latitude": 43.7228,
+      "longitude": 10.4017,
+      "service_level": "Protocolli anti-caldo regionali Toscana",
+      "contact": "+39 050 992111", 
+      "availability": "Emergenza 24/7",
+      "notes": "Percorsi differenziati per patologie calore-correlate"
+    }
+  ],
+
+  "health_services": [
+    {
+      "name": "Sistema Nazionale Prevenzione Caldo - Ministero Salute",
+      "service_type": "coordination",
+      "contact": "https://www.salute.gov.it/caldo",
+      "description": "Bollettini quotidiani ondate calore per 27 città, coordinamento nazionale emergenze",
+      "available": "Operativo maggio-settembre, aggiornamenti LUN-VEN"
+    },
+    {
+      "name": "App Caldo e Salute",
+      "service_type": "mobile_app",
+      "contact": "Android/iOS store",
+      "description": "Allerte in tempo reale, consigli salute, localizzazione servizi emergenza",
+      "available": "24/7 con notifiche push"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.meteo.it/notizie/meteo-allerta-caldo-africano-il-3-luglio-2025-tutte-le-citta-a-rischio-per-il-ministero-della-salute-6a4f7b41",
+      "title": "Ministero Salute - Allerta caldo 3 luglio 2025",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.rainews.it/articoli/2025/07/italia-e-europa-roventi-46-gradi-in-spagna-rischio-temporali-su-lombardia-emilia-veneto-le-previsioni-meteo-809284e0-2067-402b-abf1-32a74cbe700f.html",
+      "title": "RAI News - Italia rovente bollino rosso 18 città",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.iodonna.it/attualita/costume-e-societa/2025/07/02/i-rifugi-climatici-delle-citta-italiane-aperti-a-tutti-contro-il-caldo-record/",
+      "title": "iO Donna - Rifugi climatici città italiane",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.ilgiorno.it/salute/caldo-colpo-di-calore-rsq79f23",
+      "title": "Il Giorno - Protocolli Ospedale Niguarda Milano",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://napoli.corriere.it/notizie/cronaca/25_luglio_02/napoli-verso-un-weekend-nero-per-il-caldo-al-cardarelli-registrati-450-accessi-in-codice-rosso-136aa51b-6a74-4e42-9b96-1d3983694xlk.shtml",
+      "title": "Corriere Napoli - Cardarelli 450 accessi emergenza caldo",
+      "accessed": "2025-07-03"
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/news-e-media/notizie/estate-2025-attivo-il-sistema-nazionale-di-prevenzione-degli-effetti-negativi/?tema=Ondate+di+calore",
+      "title": "Ministero Salute - Sistema nazionale prevenzione caldo 2025",
+      "accessed": "2025-07-03"
+    }
+  ]
+}
